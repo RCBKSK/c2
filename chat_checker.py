@@ -27,7 +27,7 @@ class ChatChecker:
         else:
             return "Other"
 
-def log_troops_lost(self, response, filename="troops_lost_log.txt", excel_file="Troops.xlsx"):
+    def log_troops_lost(self, response, filename="troops_lost_log.txt", excel_file="Troops.xlsx"):
         try:
             if not response or 'mail' not in response:
                 return False
