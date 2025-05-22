@@ -1,0 +1,6513 @@
+{
+  "result": true,
+  "mail": {
+    "_id": "67329d81b44cd39bdeec6a84",
+    "like": true,
+    "to": "6169a073852452726c48fe93",
+    "from": null,
+    "type": 29,
+    "category": 1,
+    "status": 1,
+    "receiveDate": "2024-11-12T00:12:49.233Z",
+    "subject": {
+      "battleResult": 3,
+      "enemy": {
+        "shield": {
+          "started": "2024-11-12T00:06:52.059Z",
+          "ended": "2024-11-12T01:06:52.059Z",
+          "next": "2024-11-14T00:06:52.059Z"
+        },
+        "inSiege": {
+          "worldId": 2,
+          "started": "2024-11-12T00:06:52.059Z",
+          "ended": "2024-11-12T01:06:52.059Z"
+        },
+        "siege": {
+          "worldId": 2,
+          "started": "2024-11-12T00:06:52.059Z",
+          "history": [
+            {
+              "worldId": 24,
+              "started": "2024-11-12T00:00:06.227Z",
+              "time": 0,
+              "_id": "67329c1c3b54f7dd0c79da15"
+            }
+          ]
+        },
+        "inFinalApproachSnap": {
+          "snapShot": null,
+          "loc": [
+            100001,
+            600,
+            1600
+          ]
+        },
+        "_id": "621b91f2d070180ca804001b",
+        "worldId": 100001,
+        "siegeBonus": [
+          [
+            65,
+            2,
+            0.3
+          ],
+          [
+            66,
+            2,
+            0.3
+          ],
+          [
+            67,
+            2,
+            0.3
+          ]
+        ],
+        "territoryBonus": [],
+        "status": 2,
+        "tax": 20,
+        "troops": [
+          {
+            "code": 50100105,
+            "amount": 0,
+            "_id": "672ecfd7c0cf28fd708bbdc5"
+          },
+          {
+            "code": 50100205,
+            "amount": 0,
+            "_id": "672ecfd7c0cf28fd708bbdc6"
+          },
+          {
+            "code": 50100305,
+            "amount": 0,
+            "_id": "672ecfd7c0cf28fd708bbdc7"
+          }
+        ],
+        "supports": [
+          {
+            "moId": "67329ae98ae5b938599b7972",
+            "status": 1,
+            "_id": "67329c25ac3ab756f5310bca"
+          },
+          {
+            "moId": "67329b6adb218f55868bee4a",
+            "status": 1,
+            "_id": "67329c1c3b54f7dd0c79de0d"
+          },
+          {
+            "moId": "67329b85c903ddda9c7e8bde",
+            "status": 1,
+            "_id": "67329c1c3b54f7dd0c79df3d"
+          },
+          {
+            "moId": "67329be811503234537a23fb",
+            "status": 1,
+            "_id": "67329c1c3b54f7dd0c79e39e"
+          },
+          {
+            "moId": "67329c2b8fddac11b4b09404",
+            "status": 1,
+            "_id": "67329c2c8fddac11b4b0c0b0"
+          },
+          {
+            "moId": "67329c31fcd08f10f794a741",
+            "status": 1,
+            "_id": "67329c32fcd08f10f794eb3e"
+          },
+          {
+            "moId": "67329c37edeff7649cba1d83",
+            "status": 1,
+            "_id": "67329c38edeff7649cba3508"
+          },
+          {
+            "moId": "67329c38ddae3dc88434512c",
+            "status": 1,
+            "_id": "67329c39ddae3dc8843469c8"
+          },
+          {
+            "moId": "67329c3fba4bd9ca89fceacf",
+            "status": 1,
+            "_id": "67329c3fba4bd9ca89fd036b"
+          },
+          {
+            "moId": "67329c710747fc0081ff98f5",
+            "status": 1,
+            "_id": "67329c720747fc0081ffaa71"
+          },
+          {
+            "moId": "67329c8bb629b3cb7330ed2c",
+            "status": 1,
+            "_id": "67329c8bb629b3cb7330fc64"
+          },
+          {
+            "moId": "67329c923e2e5a24c39e47d0",
+            "status": 1,
+            "_id": "67329c923e2e5a24c39e582a"
+          },
+          {
+            "moId": "67329cca4add1c0c51b6d723",
+            "status": 1,
+            "_id": "67329ccb4add1c0c51b6ead0"
+          },
+          {
+            "moId": "67329d1448913c6bef569b27",
+            "status": 2,
+            "_id": "67329d1548913c6bef56ac57"
+          },
+          {
+            "moId": "67329d1ef4b90a89225362be",
+            "status": 2,
+            "_id": "67329d1ef4b90a8922537ae7"
+          },
+          {
+            "moId": "67329d2181d99aba6832314f",
+            "status": 2,
+            "_id": "67329d2181d99aba683243b2"
+          },
+          {
+            "moId": "67329d32fda785647ba30d72",
+            "status": 2,
+            "_id": "67329d32fda785647ba321e0"
+          },
+          {
+            "moId": "67329d43b5adfb1cfe047425",
+            "status": 2,
+            "_id": "67329d43b5adfb1cfe048823"
+          },
+          {
+            "moId": "67329d4ed9badc35c3b5f5da",
+            "status": 2,
+            "_id": "67329d4fd9badc35c3b61d10"
+          }
+        ],
+        "history": [],
+        "titles": [],
+        "bounties": [],
+        "skills": [],
+        "code": 20700101,
+        "maxTroops": 3000000,
+        "maxReserved": 0,
+        "medals": 0,
+        "territorySize": 2,
+        "fieldObjectId": "621b91f2d070180ca803ffca",
+        "__v": 19,
+        "numSiegeTroops": 2967489,
+        "inFinalApproachState": 0,
+        "fo": {
+          "_id": "621b91f2d070180ca803ffca",
+          "loc": [
+            100001,
+            600,
+            1600
+          ],
+          "level": 1,
+          "code": 20700101,
+          "param": {
+            "shield": {
+              "started": "2024-11-12T00:00:00.000Z",
+              "ended": "2024-11-12T01:06:52.059Z",
+              "next": "2024-11-14T00:06:52.059Z"
+            },
+            "siege": {
+              "id": 2,
+              "worldId": 2,
+              "started": "2024-11-12T00:06:52.059Z"
+            },
+            "inFinalApproach": false
+          },
+          "occupied": {
+            "worldId": 2
+          },
+          "state": 1
+        },
+        "firstRewards": [
+          {
+            "code": 10101002,
+            "amount": 3
+          },
+          {
+            "code": 10104100,
+            "amount": 15
+          },
+          {
+            "code": 10104104,
+            "amount": 15
+          },
+          {
+            "code": 10104025,
+            "amount": 3
+          },
+          {
+            "code": 10104091,
+            "amount": 1
+          }
+        ],
+        "point1": 10000000,
+        "point2": 1000000,
+        "power": 178049340,
+        "param": {
+          "inFinalApproach": false
+        }
+      },
+      "loc": [
+        100001,
+        600,
+        1600
+      ],
+      "my": 1
+    },
+    "content": "",
+    "param": [
+      {
+        "type": 25,
+        "kingdom": {
+          "_id": "61a9b20a46eab20cb948c7f0",
+          "level": 35,
+          "power": 603425970,
+          "name": "BLACK MYTH IMP",
+          "worldId": 24,
+          "allianceId": "61e0854ec2da8511aa78fcff",
+          "faceCode": 0,
+          "congressTitle": 103,
+          "loc": [
+            100001,
+            602,
+            1601
+          ],
+          "alliance": {
+            "_id": "61e0854ec2da8511aa78fcff",
+            "name": "LEGION3",
+            "tag": "LGN3",
+            "power": 34967402092,
+            "leaderKingdomId": "6158cf867a9e6e1ea48668b4",
+            "description": "<size=34>Welcome to C24!</size>\n\n<size=\"24\"><b>How to have a good journey on C24:</b></size>\n<size=\"24\"> • Join C24 Discord and read rules/news daily</size>\n<size=\"24\"> • Don't TP to Congress/North without permission</size>\n<size=\"24\"> • Unsure about kingdom position rules? TP to A3 Shrine at 896:896</size>\n<size=\"24\"> • EVERYONE is welcome to LGN3. Join for upgrades and rallies</size>\n<size=\"24\"> • Land program to win C-mine/DSA mine access:\nhttps://shorturl.at/gnrQT</size>\n\n<size=\"24\"><b>It is forbidden to:</b></size>\n<size=\"24\"> • Race mines</size>\n<size=\"24\"> • Use Swift Walk</size>\n\n<size=\"24\">Join C24 Discord: https://discord.gg/c24</size>",
+            "numMembers": 96,
+            "maxMembers": 100,
+            "flag": {
+              "backShape": 16,
+              "patternShape": 0
+            },
+            "option": {
+              "minPower": 0,
+              "minLevel": 1,
+              "allowType": 2
+            },
+            "langCode": "all",
+            "level": 10,
+            "exp": 340916630,
+            "alliancePoint": 187638400,
+            "worldId": 24,
+            "nft": {
+              "index": 7,
+              "num": 15
+            }
+          }
+        },
+        "shrine": {
+          "shield": {
+            "started": "2024-11-12T00:06:52.059Z",
+            "ended": "2024-11-12T01:06:52.059Z",
+            "next": "2024-11-14T00:06:52.059Z"
+          },
+          "inSiege": {
+            "worldId": 2,
+            "started": "2024-11-12T00:06:52.059Z",
+            "ended": "2024-11-12T01:06:52.059Z"
+          },
+          "siege": {
+            "worldId": 2,
+            "started": "2024-11-12T00:06:52.059Z",
+            "history": [
+              {
+                "worldId": 24,
+                "started": "2024-11-12T00:00:06.227Z",
+                "time": 0,
+                "_id": "67329c1c3b54f7dd0c79da15"
+              }
+            ]
+          },
+          "inFinalApproachSnap": {
+            "snapShot": null,
+            "loc": [
+              100001,
+              600,
+              1600
+            ]
+          },
+          "_id": "621b91f2d070180ca804001b",
+          "worldId": 100001,
+          "siegeBonus": [
+            [
+              65,
+              2,
+              0.3
+            ],
+            [
+              66,
+              2,
+              0.3
+            ],
+            [
+              67,
+              2,
+              0.3
+            ]
+          ],
+          "territoryBonus": [],
+          "status": 2,
+          "tax": 20,
+          "troops": [
+            {
+              "code": 50100105,
+              "amount": 0,
+              "_id": "672ecfd7c0cf28fd708bbdc5"
+            },
+            {
+              "code": 50100205,
+              "amount": 0,
+              "_id": "672ecfd7c0cf28fd708bbdc6"
+            },
+            {
+              "code": 50100305,
+              "amount": 0,
+              "_id": "672ecfd7c0cf28fd708bbdc7"
+            }
+          ],
+          "supports": [
+            {
+              "moId": "67329ae98ae5b938599b7972",
+              "status": 1,
+              "_id": "67329c25ac3ab756f5310bca"
+            },
+            {
+              "moId": "67329b6adb218f55868bee4a",
+              "status": 1,
+              "_id": "67329c1c3b54f7dd0c79de0d"
+            },
+            {
+              "moId": "67329b85c903ddda9c7e8bde",
+              "status": 1,
+              "_id": "67329c1c3b54f7dd0c79df3d"
+            },
+            {
+              "moId": "67329be811503234537a23fb",
+              "status": 1,
+              "_id": "67329c1c3b54f7dd0c79e39e"
+            },
+            {
+              "moId": "67329c2b8fddac11b4b09404",
+              "status": 1,
+              "_id": "67329c2c8fddac11b4b0c0b0"
+            },
+            {
+              "moId": "67329c31fcd08f10f794a741",
+              "status": 1,
+              "_id": "67329c32fcd08f10f794eb3e"
+            },
+            {
+              "moId": "67329c37edeff7649cba1d83",
+              "status": 1,
+              "_id": "67329c38edeff7649cba3508"
+            },
+            {
+              "moId": "67329c38ddae3dc88434512c",
+              "status": 1,
+              "_id": "67329c39ddae3dc8843469c8"
+            },
+            {
+              "moId": "67329c3fba4bd9ca89fceacf",
+              "status": 1,
+              "_id": "67329c3fba4bd9ca89fd036b"
+            },
+            {
+              "moId": "67329c710747fc0081ff98f5",
+              "status": 1,
+              "_id": "67329c720747fc0081ffaa71"
+            },
+            {
+              "moId": "67329c8bb629b3cb7330ed2c",
+              "status": 1,
+              "_id": "67329c8bb629b3cb7330fc64"
+            },
+            {
+              "moId": "67329c923e2e5a24c39e47d0",
+              "status": 1,
+              "_id": "67329c923e2e5a24c39e582a"
+            },
+            {
+              "moId": "67329cca4add1c0c51b6d723",
+              "status": 1,
+              "_id": "67329ccb4add1c0c51b6ead0"
+            },
+            {
+              "moId": "67329d1448913c6bef569b27",
+              "status": 2,
+              "_id": "67329d1548913c6bef56ac57"
+            },
+            {
+              "moId": "67329d1ef4b90a89225362be",
+              "status": 2,
+              "_id": "67329d1ef4b90a8922537ae7"
+            },
+            {
+              "moId": "67329d2181d99aba6832314f",
+              "status": 2,
+              "_id": "67329d2181d99aba683243b2"
+            },
+            {
+              "moId": "67329d32fda785647ba30d72",
+              "status": 2,
+              "_id": "67329d32fda785647ba321e0"
+            },
+            {
+              "moId": "67329d43b5adfb1cfe047425",
+              "status": 2,
+              "_id": "67329d43b5adfb1cfe048823"
+            },
+            {
+              "moId": "67329d4ed9badc35c3b5f5da",
+              "status": 2,
+              "_id": "67329d4fd9badc35c3b61d10"
+            }
+          ],
+          "history": [],
+          "titles": [],
+          "bounties": [],
+          "skills": [],
+          "code": 20700101,
+          "maxTroops": 3000000,
+          "maxReserved": 0,
+          "medals": 0,
+          "territorySize": 2,
+          "fieldObjectId": "621b91f2d070180ca803ffca",
+          "__v": 19,
+          "numSiegeTroops": 2967489,
+          "inFinalApproachState": 0,
+          "fo": {
+            "_id": "621b91f2d070180ca803ffca",
+            "loc": [
+              100001,
+              600,
+              1600
+            ],
+            "level": 1,
+            "code": 20700101,
+            "param": {
+              "shield": {
+                "started": "2024-11-12T00:00:00.000Z",
+                "ended": "2024-11-12T01:06:52.059Z",
+                "next": "2024-11-14T00:06:52.059Z"
+              },
+              "siege": {
+                "id": 2,
+                "worldId": 2,
+                "started": "2024-11-12T00:06:52.059Z"
+              },
+              "inFinalApproach": false
+            },
+            "occupied": {
+              "worldId": 2
+            },
+            "state": 1
+          },
+          "firstRewards": [
+            {
+              "code": 10101002,
+              "amount": 3
+            },
+            {
+              "code": 10104100,
+              "amount": 15
+            },
+            {
+              "code": 10104104,
+              "amount": 15
+            },
+            {
+              "code": 10104025,
+              "amount": 3
+            },
+            {
+              "code": 10104091,
+              "amount": 1
+            }
+          ],
+          "point1": 10000000,
+          "point2": 1000000,
+          "power": 178049340,
+          "param": {
+            "inFinalApproach": false
+          }
+        },
+        "my": 1
+      },
+      {
+        "type": 26,
+        "battleResult": {
+          "winner": 0,
+          "before": [
+            [
+              {
+                "type": 1,
+                "moId": "67329c46fc9de3ee3fe325af",
+                "troops": [
+                  {
+                    "code": 50100107,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 622122,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": {
+                  "_id": "66ac5e07a663d6d046c9617e",
+                  "tokenId": 45019,
+                  "fusion": 7,
+                  "grade": 4,
+                  "level": 30,
+                  "parts": [
+                    {
+                      "grade": 2,
+                      "code": 8,
+                      "attr": 1
+                    },
+                    {
+                      "grade": 1,
+                      "code": 8,
+                      "attr": 1
+                    },
+                    {
+                      "grade": 2,
+                      "code": 8,
+                      "attr": 1
+                    },
+                    {
+                      "grade": 2,
+                      "code": 8,
+                      "attr": 1
+                    },
+                    {
+                      "grade": 2,
+                      "code": 8,
+                      "attr": 1
+                    },
+                    {
+                      "grade": 1,
+                      "code": 8,
+                      "attr": 1
+                    },
+                    {
+                      "grade": 1,
+                      "code": 8,
+                      "attr": 1
+                    }
+                  ]
+                },
+                "kingdom": {
+                  "_id": "61a9b20a46eab20cb948c7f0",
+                  "level": 35,
+                  "power": 603425970,
+                  "name": "BLACK MYTH IMP",
+                  "skin": {
+                    "itemId": "6511f7f9b04e372ab7868291"
+                  },
+                  "faceCode": 0,
+                  "congressTitle": 103,
+                  "lord": {
+                    "level": 50,
+                    "xp": 30526740,
+                    "point": 0
+                  },
+                  "worldId": 24
+                }
+              },
+              {
+                "type": 1,
+                "moId": "67329c538f07499f2192cd45",
+                "troops": [
+                  {
+                    "_id": "659d671346a587613a271b86",
+                    "code": 50100106,
+                    "amount": 210000
+                  }
+                ],
+                "drago": null,
+                "kingdom": {
+                  "_id": "61b841c8bbe4af7f66ac3f49",
+                  "level": 35,
+                  "power": 628517717,
+                  "name": "Eayon_lee",
+                  "skin": {
+                    "itemId": "6723b92ecaac2cbef65542b7"
+                  },
+                  "faceCode": 1018729,
+                  "congressTitle": 0,
+                  "lord": {
+                    "level": 50,
+                    "xp": 31491680,
+                    "point": 14
+                  },
+                  "worldId": 24
+                }
+              },
+              {
+                "type": 1,
+                "moId": "67329c57a9e87002f9c7ced1",
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 250000,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": null,
+                "kingdom": {
+                  "_id": "61dd6ef722fbdc3c9104e63b",
+                  "level": 35,
+                  "power": 334251053,
+                  "name": "Abbas Land Ω",
+                  "skin": {
+                    "itemId": "65cc73e78272c24ae7ac0ea5"
+                  },
+                  "faceCode": 0,
+                  "congressTitle": 0,
+                  "lord": {
+                    "level": 50,
+                    "xp": 17784900,
+                    "point": 0
+                  },
+                  "worldId": 24
+                }
+              },
+              {
+                "type": 1,
+                "moId": "67329c59417226d9219b9ac3",
+                "troops": [
+                  {
+                    "code": 50100107,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 336055,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 71918,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": null,
+                "kingdom": {
+                  "_id": "6210c8119852e7681b18eea3",
+                  "level": 35,
+                  "power": 517692420,
+                  "name": "Muhtar Adayı ★",
+                  "skin": {
+                    "itemId": "6726e48f8f9221ab59d6db36"
+                  },
+                  "faceCode": 0,
+                  "congressTitle": 0,
+                  "lord": {
+                    "level": 50,
+                    "xp": 22169370,
+                    "point": 0
+                  },
+                  "worldId": 24
+                }
+              },
+              {
+                "type": 1,
+                "moId": "67329c5c109ee24f7bed3ce1",
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 100000,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": null,
+                "kingdom": {
+                  "_id": "61ddaa63dbdda84557eddf98",
+                  "level": 35,
+                  "power": 528110947,
+                  "name": "♦Pinky♦",
+                  "skin": {
+                    "itemId": "6726bb4e6e8cf42cc7b099cb"
+                  },
+                  "faceCode": 0,
+                  "congressTitle": 0,
+                  "lord": {
+                    "level": 50,
+                    "xp": 15249060,
+                    "point": 0
+                  },
+                  "worldId": 24
+                }
+              },
+              {
+                "type": 1,
+                "moId": "67329c6381d99aba681e0f07",
+                "troops": [
+                  {
+                    "code": 50100107,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 4544,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 324888,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": null,
+                "kingdom": {
+                  "_id": "612133918e86604660372aa6",
+                  "level": 35,
+                  "power": 341342832,
+                  "name": "Keyhouse",
+                  "skin": {
+                    "itemId": "65453b3d053ed310610a752e"
+                  },
+                  "faceCode": 0,
+                  "congressTitle": 0,
+                  "lord": {
+                    "level": 50,
+                    "xp": 15322530,
+                    "point": 0
+                  },
+                  "worldId": 24
+                }
+              },
+              {
+                "type": 1,
+                "moId": "67329c66480fdcdbf554b2a4",
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 300000,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": null,
+                "kingdom": {
+                  "_id": "629262ccf62ea86e47b4ec0f",
+                  "level": 35,
+                  "power": 468567761,
+                  "name": "ScoutMeBaby.",
+                  "skin": {
+                    "itemId": "6695238c4b12987eb3d2e32e"
+                  },
+                  "faceCode": 7025449,
+                  "congressTitle": 0,
+                  "lord": {
+                    "level": 50,
+                    "xp": 9671250,
+                    "point": 0
+                  },
+                  "worldId": 24
+                }
+              },
+              {
+                "type": 1,
+                "moId": "67329c67109ee24f7befb624",
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 103355,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": null,
+                "kingdom": {
+                  "_id": "607337d35058a85cf81d8235",
+                  "level": 35,
+                  "power": 504265142,
+                  "name": "Krash",
+                  "skin": {
+                    "itemId": "6725f9917b7c1d207a62a0e8"
+                  },
+                  "faceCode": 7010277,
+                  "congressTitle": 0,
+                  "lord": {
+                    "level": 50,
+                    "xp": 26991950,
+                    "point": 0
+                  },
+                  "worldId": 24
+                }
+              },
+              {
+                "type": 1,
+                "moId": "67329c778f07499f219641d0",
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 523600,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": null,
+                "kingdom": {
+                  "_id": "6241801beaf4570489b3ff1b",
+                  "level": 35,
+                  "power": 357734926,
+                  "name": "Lucky^^ Ω",
+                  "skin": {
+                    "itemId": "6727f19ca2007feb8830fca5"
+                  },
+                  "faceCode": 4,
+                  "congressTitle": 0,
+                  "lord": {
+                    "level": 50,
+                    "xp": 25491680,
+                    "point": 0
+                  },
+                  "worldId": 24
+                }
+              },
+              {
+                "type": 1,
+                "moId": "67329c7b8f07499f21967c64",
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 53518,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": null,
+                "kingdom": {
+                  "_id": "619ee0b483c2d50c46a519a5",
+                  "level": 35,
+                  "power": 445495958,
+                  "name": "Caros ★",
+                  "skin": {
+                    "itemId": "67272ca317392d44d8797b5a"
+                  },
+                  "faceCode": 7043129,
+                  "congressTitle": 0,
+                  "lord": {
+                    "level": 50,
+                    "xp": 36230720,
+                    "point": 24
+                  },
+                  "worldId": 24
+                }
+              },
+              {
+                "type": 1,
+                "moId": "67329c910dd8a5b477d759eb",
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 100000,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": null,
+                "kingdom": {
+                  "_id": "61e0085ac36f9319ecdb4221",
+                  "level": 35,
+                  "power": 550656441,
+                  "name": "<a>TAHITI</a>",
+                  "skin": {
+                    "itemId": "62e42e5a0fb88c12e52c5669"
+                  },
+                  "faceCode": 0,
+                  "congressTitle": 0,
+                  "lord": {
+                    "level": 50,
+                    "xp": 21922020,
+                    "point": 2
+                  },
+                  "worldId": 24
+                }
+              }
+            ],
+            [
+              {
+                "type": 13,
+                "moId": "67329ae98ae5b938599b7972",
+                "troops": [
+                  {
+                    "code": 50100107,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 1762,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100207,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 381,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100307,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 329,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 105127,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100206,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 79351,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100306,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 42613,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": {
+                  "_id": "652ef61b6aab7d51df90a8f9",
+                  "tokenId": 42620,
+                  "fusion": 5,
+                  "grade": 2,
+                  "level": 30,
+                  "parts": [
+                    {
+                      "code": 3,
+                      "attr": 4,
+                      "grade": 1,
+                      "_id": "67329ae98ae5b938599b7aa4"
+                    },
+                    {
+                      "code": 3,
+                      "attr": 4,
+                      "grade": 1,
+                      "_id": "67329ae98ae5b938599b7aa5"
+                    },
+                    {
+                      "code": 3,
+                      "attr": 4,
+                      "grade": 1,
+                      "_id": "67329ae98ae5b938599b7aa6"
+                    },
+                    {
+                      "code": 1,
+                      "attr": 4,
+                      "grade": 1,
+                      "_id": "67329ae98ae5b938599b7aa7"
+                    },
+                    {
+                      "code": 2,
+                      "attr": 4,
+                      "grade": 2,
+                      "_id": "67329ae98ae5b938599b7aa8"
+                    },
+                    {
+                      "code": 2,
+                      "attr": 4,
+                      "grade": 1,
+                      "_id": "67329ae98ae5b938599b7aa9"
+                    },
+                    {
+                      "code": 2,
+                      "attr": 4,
+                      "grade": 2,
+                      "_id": "67329ae98ae5b938599b7aaa"
+                    }
+                  ]
+                },
+                "kingdom": {
+                  "_id": "6386e24b2cd263693c51392b",
+                  "level": 35,
+                  "power": 616142870,
+                  "name": "bigA",
+                  "skin": {
+                    "itemId": "655f676bf5755018958be363"
+                  },
+                  "faceCode": 0,
+                  "congressTitle": 105,
+                  "lord": {
+                    "level": 50,
+                    "xp": 14016580,
+                    "point": 0
+                  },
+                  "worldId": 2
+                }
+              },
+              {
+                "type": 13,
+                "moId": "67329b6adb218f55868bee4a",
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 105022,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": {
+                  "parts": []
+                },
+                "kingdom": {
+                  "_id": "6160684b11c6b375d6c34820",
+                  "level": 35,
+                  "power": 144047449,
+                  "name": "Kandor",
+                  "skin": {
+                    "itemId": "62de044bcfc0231a3f711536"
+                  },
+                  "faceCode": 0,
+                  "congressTitle": 0,
+                  "lord": {
+                    "level": 50,
+                    "xp": 21356730,
+                    "point": 0
+                  },
+                  "worldId": 2
+                }
+              },
+              {
+                "type": 13,
+                "moId": "67329b85c903ddda9c7e8bde",
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 73116,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100206,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 63483,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100306,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 18649,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": {
+                  "parts": []
+                },
+                "kingdom": {
+                  "_id": "63b8789f21fc50575db2982a",
+                  "level": 34,
+                  "power": 167917383,
+                  "name": "U-GOD",
+                  "skin": {
+                    "itemId": "6727c6ffae72eb5733b94439"
+                  },
+                  "faceCode": 0,
+                  "congressTitle": 0,
+                  "lord": {
+                    "level": 50,
+                    "xp": 9805090,
+                    "point": 0
+                  },
+                  "worldId": 2
+                }
+              },
+              {
+                "type": 13,
+                "moId": "67329be811503234537a23fb",
+                "troops": [
+                  {
+                    "code": 50100107,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 195,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100207,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 68791,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 101611,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100206,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 164544,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100306,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 85356,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": {
+                  "parts": []
+                },
+                "kingdom": {
+                  "_id": "616086c5dadaaf7524249751",
+                  "level": 35,
+                  "power": 374475950,
+                  "name": "Alamirey",
+                  "skin": {
+                    "itemId": "61b88363f06d7f0c97dbc481"
+                  },
+                  "faceCode": 0,
+                  "congressTitle": 104,
+                  "lord": {
+                    "level": 50,
+                    "xp": 29150460,
+                    "point": 0
+                  },
+                  "worldId": 2
+                }
+              },
+              {
+                "type": 13,
+                "moId": "67329c2b8fddac11b4b09404",
+                "troops": [
+                  {
+                    "code": 50100107,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 49204,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100207,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 95979,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100307,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 48751,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 98072,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100206,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 47727,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100306,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 48653,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": {
+                  "_id": "665edc4f23be84b824007e16",
+                  "tokenId": 44602,
+                  "fusion": 5,
+                  "grade": 2,
+                  "level": 27,
+                  "parts": [
+                    {
+                      "code": 3,
+                      "attr": 4,
+                      "grade": 1,
+                      "_id": "67329c2b8fddac11b4b09532"
+                    },
+                    {
+                      "code": 3,
+                      "attr": 4,
+                      "grade": 2,
+                      "_id": "67329c2b8fddac11b4b09533"
+                    },
+                    {
+                      "code": 1,
+                      "attr": 4,
+                      "grade": 1,
+                      "_id": "67329c2b8fddac11b4b09534"
+                    },
+                    {
+                      "code": 1,
+                      "attr": 4,
+                      "grade": 1,
+                      "_id": "67329c2b8fddac11b4b09535"
+                    },
+                    {
+                      "code": 3,
+                      "attr": 4,
+                      "grade": 1,
+                      "_id": "67329c2b8fddac11b4b09536"
+                    },
+                    {
+                      "code": 3,
+                      "attr": 4,
+                      "grade": 1,
+                      "_id": "67329c2b8fddac11b4b09537"
+                    },
+                    {
+                      "code": 3,
+                      "attr": 4,
+                      "grade": 2,
+                      "_id": "67329c2b8fddac11b4b09538"
+                    }
+                  ]
+                },
+                "kingdom": {
+                  "_id": "62acc8d72a4d8e17a9e62ad1",
+                  "level": 35,
+                  "power": 559599502,
+                  "name": "NY212",
+                  "skin": {
+                    "itemId": "65a3fd7b73304b0d3277445b"
+                  },
+                  "faceCode": 0,
+                  "congressTitle": 0,
+                  "lord": {
+                    "level": 50,
+                    "xp": 13957380,
+                    "point": 0
+                  },
+                  "worldId": 2
+                }
+              },
+              {
+                "type": 13,
+                "moId": "67329c31fcd08f10f794a741",
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 10000,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100206,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 10000,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100306,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 5000,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": {
+                  "parts": []
+                },
+                "kingdom": {
+                  "_id": "60dbb8ed00f7d20e8fc2a48d",
+                  "level": 34,
+                  "power": 282807345,
+                  "name": "—CAYYYY–",
+                  "skin": {
+                    "itemId": "659fae4ba306df0758872252"
+                  },
+                  "faceCode": 0,
+                  "congressTitle": 0,
+                  "lord": {
+                    "level": 50,
+                    "xp": 11592370,
+                    "point": 0
+                  },
+                  "worldId": 2
+                }
+              },
+              {
+                "type": 13,
+                "moId": "67329c37edeff7649cba1d83",
+                "troops": [
+                  {
+                    "code": 50100107,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 500,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100207,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 500,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 35000,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100206,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 40000,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100306,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 24000,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": {
+                  "parts": []
+                },
+                "kingdom": {
+                  "_id": "61df701216e71b114b2d64bd",
+                  "level": 35,
+                  "power": 417119034,
+                  "name": "HamidK",
+                  "skin": {
+                    "itemId": "63db020c026ab2048d75b34b"
+                  },
+                  "faceCode": 0,
+                  "congressTitle": 0,
+                  "lord": {
+                    "level": 50,
+                    "xp": 17921300,
+                    "point": 0
+                  },
+                  "worldId": 2
+                }
+              },
+              {
+                "type": 13,
+                "moId": "67329c38ddae3dc88434512c",
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 40000,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100206,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 40000,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100306,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 20000,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": {
+                  "parts": []
+                },
+                "kingdom": {
+                  "_id": "61dff68e6dda723d20058e52",
+                  "level": 35,
+                  "power": 320324523,
+                  "name": "Densky ▼",
+                  "skin": {
+                    "itemId": "65c0d7d5be43e44bcc90b0c9"
+                  },
+                  "faceCode": 0,
+                  "congressTitle": 0,
+                  "lord": {
+                    "level": 50,
+                    "xp": 21053730,
+                    "point": 0
+                  },
+                  "worldId": 2
+                }
+              },
+              {
+                "type": 13,
+                "moId": "67329c3fba4bd9ca89fceacf",
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 80000,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100206,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 80000,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100306,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 40000,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": {
+                  "parts": []
+                },
+                "kingdom": {
+                  "_id": "62041a46e992b44a9d8c1589",
+                  "level": 35,
+                  "power": 566267780,
+                  "name": "Galicum",
+                  "skin": {
+                    "itemId": "624a3c2fc20c926f0857d05d"
+                  },
+                  "faceCode": 1015100,
+                  "congressTitle": 103,
+                  "lord": {
+                    "level": 50,
+                    "xp": 8606600,
+                    "point": 0
+                  },
+                  "worldId": 2
+                }
+              },
+              {
+                "type": 13,
+                "moId": "67329c710747fc0081ff98f5",
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 200000,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100206,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 200000,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100306,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 100000,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": {
+                  "parts": []
+                },
+                "kingdom": {
+                  "_id": "61de204cb529d41012e830ac",
+                  "level": 35,
+                  "power": 540059432,
+                  "name": "tronald.dump",
+                  "skin": {
+                    "itemId": "669c2149f7d9b37ea73c5b4b"
+                  },
+                  "faceCode": 1018594,
+                  "congressTitle": 0,
+                  "lord": {
+                    "level": 50,
+                    "xp": 10052350,
+                    "point": 0
+                  },
+                  "worldId": 2
+                }
+              },
+              {
+                "type": 13,
+                "moId": "67329c8bb629b3cb7330ed2c",
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 188177,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100206,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 180510,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100306,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 144313,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": {
+                  "parts": []
+                },
+                "kingdom": {
+                  "_id": "6169a073852452726c48fe93",
+                  "level": 35,
+                  "power": 542156806,
+                  "name": "Lukedom",
+                  "skin": {
+                    "itemId": "632d85a9d3c37227d8924606"
+                  },
+                  "faceCode": 0,
+                  "congressTitle": 108,
+                  "lord": {
+                    "level": 50,
+                    "xp": 10328390,
+                    "point": 6
+                  },
+                  "worldId": 2
+                }
+              },
+              {
+                "type": 13,
+                "moId": "67329c923e2e5a24c39e47d0",
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 75154,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100206,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 78353,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100306,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 46353,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": {
+                  "parts": []
+                },
+                "kingdom": {
+                  "_id": "60982698a21f4a4aa9c007a4",
+                  "level": 35,
+                  "power": 378376382,
+                  "name": "Farmer Domay",
+                  "skin": {
+                    "itemId": "6498df56a827966865a7e51f"
+                  },
+                  "faceCode": 7036086,
+                  "congressTitle": 0,
+                  "lord": {
+                    "level": 50,
+                    "xp": 25258810,
+                    "point": 0
+                  },
+                  "worldId": 2
+                }
+              },
+              {
+                "type": 13,
+                "moId": "67329cca4add1c0c51b6d723",
+                "troops": [
+                  {
+                    "code": 50100306,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 30913,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": {
+                  "parts": []
+                },
+                "kingdom": {
+                  "_id": "621f626cd927fa2259786036",
+                  "level": 34,
+                  "power": 152441238,
+                  "name": "MuratAlberto",
+                  "skin": {
+                    "itemId": "635f7d36b864dc259f475a5f"
+                  },
+                  "faceCode": 0,
+                  "congressTitle": 0,
+                  "lord": {
+                    "level": 50,
+                    "xp": 8103790,
+                    "point": 5
+                  },
+                  "worldId": 2
+                }
+              }
+            ]
+          ],
+          "after": [
+            [
+              {
+                "type": 1,
+                "moId": "67329c46fc9de3ee3fe325af",
+                "troops": [
+                  {
+                    "code": 50100107,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 416742,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": {
+                  "_id": "66ac5e07a663d6d046c9617e",
+                  "tokenId": 45019,
+                  "fusion": 7,
+                  "grade": 4,
+                  "level": 30,
+                  "parts": [
+                    {
+                      "grade": 2,
+                      "code": 8,
+                      "attr": 1
+                    },
+                    {
+                      "grade": 1,
+                      "code": 8,
+                      "attr": 1
+                    },
+                    {
+                      "grade": 2,
+                      "code": 8,
+                      "attr": 1
+                    },
+                    {
+                      "grade": 2,
+                      "code": 8,
+                      "attr": 1
+                    },
+                    {
+                      "grade": 2,
+                      "code": 8,
+                      "attr": 1
+                    },
+                    {
+                      "grade": 1,
+                      "code": 8,
+                      "attr": 1
+                    },
+                    {
+                      "grade": 1,
+                      "code": 8,
+                      "attr": 1
+                    }
+                  ]
+                },
+                "wounded": [
+                  {
+                    "code": 50100107,
+                    "amount": 164302
+                  }
+                ],
+                "stats": {
+                  "kill": 901020,
+                  "dead": 41078,
+                  "kills": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    901020,
+                    0,
+                    0,
+                    0
+                  ],
+                  "deads": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    41078,
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              },
+              {
+                "type": 1,
+                "moId": "67329c538f07499f2192cd45",
+                "troops": [
+                  {
+                    "_id": "659d671346a587613a271b86",
+                    "code": 50100106,
+                    "amount": 130418
+                  }
+                ],
+                "drago": null,
+                "wounded": [
+                  {
+                    "code": 50100106,
+                    "amount": 59015
+                  }
+                ],
+                "stats": {
+                  "kill": 213706,
+                  "dead": 20567,
+                  "kills": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    213706,
+                    0,
+                    0,
+                    0
+                  ],
+                  "deads": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    20567,
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              },
+              {
+                "type": 1,
+                "moId": "67329c57a9e87002f9c7ced1",
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 155259,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": null,
+                "wounded": [
+                  {
+                    "code": 50100106,
+                    "amount": 69746
+                  }
+                ],
+                "stats": {
+                  "kill": 256655,
+                  "dead": 24995,
+                  "kills": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    256655,
+                    0,
+                    0,
+                    0
+                  ],
+                  "deads": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    24995,
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              },
+              {
+                "type": 1,
+                "moId": "67329c59417226d9219b9ac3",
+                "troops": [
+                  {
+                    "code": 50100107,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 225111,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 44662,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": null,
+                "wounded": [
+                  {
+                    "code": 50100107,
+                    "amount": 81780
+                  },
+                  {
+                    "code": 50100106,
+                    "amount": 19965
+                  }
+                ],
+                "stats": {
+                  "kill": 436723,
+                  "dead": 36455,
+                  "kills": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    436723,
+                    0,
+                    0,
+                    0
+                  ],
+                  "deads": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    36455,
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              },
+              {
+                "type": 1,
+                "moId": "67329c5c109ee24f7bed3ce1",
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 62102,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": null,
+                "wounded": [
+                  {
+                    "code": 50100106,
+                    "amount": 29098
+                  }
+                ],
+                "stats": {
+                  "kill": 85400,
+                  "dead": 8800,
+                  "kills": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    85400,
+                    0,
+                    0,
+                    0
+                  ],
+                  "deads": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    8800,
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              },
+              {
+                "type": 1,
+                "moId": "67329c6381d99aba681e0f07",
+                "troops": [
+                  {
+                    "code": 50100107,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 3042,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 201767,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": null,
+                "wounded": [
+                  {
+                    "code": 50100107,
+                    "amount": 1152
+                  },
+                  {
+                    "code": 50100106,
+                    "amount": 92086
+                  }
+                ],
+                "stats": {
+                  "kill": 279576,
+                  "dead": 31385,
+                  "kills": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    279576,
+                    0,
+                    0,
+                    0
+                  ],
+                  "deads": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    31385,
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              },
+              {
+                "type": 1,
+                "moId": "67329c66480fdcdbf554b2a4",
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 186312,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": null,
+                "wounded": [
+                  {
+                    "code": 50100106,
+                    "amount": 84909
+                  }
+                ],
+                "stats": {
+                  "kill": 244854,
+                  "dead": 28779,
+                  "kills": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    244854,
+                    0,
+                    0,
+                    0
+                  ],
+                  "deads": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    28779,
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              },
+              {
+                "type": 1,
+                "moId": "67329c67109ee24f7befb624",
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 64186,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": null,
+                "wounded": [
+                  {
+                    "code": 50100106,
+                    "amount": 29001
+                  }
+                ],
+                "stats": {
+                  "kill": 85141,
+                  "dead": 10168,
+                  "kills": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    85141,
+                    0,
+                    0,
+                    0
+                  ],
+                  "deads": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    10168,
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              },
+              {
+                "type": 1,
+                "moId": "67329c778f07499f219641d0",
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 325177,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": null,
+                "wounded": [
+                  {
+                    "code": 50100106,
+                    "amount": 146962
+                  }
+                ],
+                "stats": {
+                  "kill": 425470,
+                  "dead": 51461,
+                  "kills": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    425470,
+                    0,
+                    0,
+                    0
+                  ],
+                  "deads": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    51461,
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              },
+              {
+                "type": 1,
+                "moId": "67329c7b8f07499f21967c64",
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 33234,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": null,
+                "wounded": [
+                  {
+                    "code": 50100106,
+                    "amount": 15265
+                  }
+                ],
+                "stats": {
+                  "kill": 40774,
+                  "dead": 5019,
+                  "kills": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    40774,
+                    0,
+                    0,
+                    0
+                  ],
+                  "deads": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    5019,
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              },
+              {
+                "type": 1,
+                "moId": "67329c910dd8a5b477d759eb",
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 62102,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": null,
+                "wounded": [
+                  {
+                    "code": 50100106,
+                    "amount": 28672
+                  }
+                ],
+                "stats": {
+                  "kill": 78537,
+                  "dead": 9226,
+                  "kills": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    78537,
+                    0,
+                    0,
+                    0
+                  ],
+                  "deads": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    9226,
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "type": 13,
+                "moId": "67329ae98ae5b938599b7972",
+                "troops": [
+                  {
+                    "code": 50100107,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100207,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100307,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100206,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100306,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": {
+                  "_id": "652ef61b6aab7d51df90a8f9",
+                  "tokenId": 42620,
+                  "fusion": 5,
+                  "grade": 2,
+                  "level": 30,
+                  "parts": [
+                    {
+                      "code": 3,
+                      "attr": 4,
+                      "grade": 1,
+                      "_id": "67329ae98ae5b938599b7aa4"
+                    },
+                    {
+                      "code": 3,
+                      "attr": 4,
+                      "grade": 1,
+                      "_id": "67329ae98ae5b938599b7aa5"
+                    },
+                    {
+                      "code": 3,
+                      "attr": 4,
+                      "grade": 1,
+                      "_id": "67329ae98ae5b938599b7aa6"
+                    },
+                    {
+                      "code": 1,
+                      "attr": 4,
+                      "grade": 1,
+                      "_id": "67329ae98ae5b938599b7aa7"
+                    },
+                    {
+                      "code": 2,
+                      "attr": 4,
+                      "grade": 2,
+                      "_id": "67329ae98ae5b938599b7aa8"
+                    },
+                    {
+                      "code": 2,
+                      "attr": 4,
+                      "grade": 1,
+                      "_id": "67329ae98ae5b938599b7aa9"
+                    },
+                    {
+                      "code": 2,
+                      "attr": 4,
+                      "grade": 2,
+                      "_id": "67329ae98ae5b938599b7aaa"
+                    }
+                  ]
+                },
+                "wounded": [
+                  {
+                    "code": 50100107,
+                    "amount": 1407
+                  },
+                  {
+                    "code": 50100207,
+                    "amount": 304
+                  },
+                  {
+                    "code": 50100307,
+                    "amount": 261
+                  },
+                  {
+                    "code": 50100106,
+                    "amount": 84100
+                  },
+                  {
+                    "code": 50100206,
+                    "amount": 63479
+                  },
+                  {
+                    "code": 50100306,
+                    "amount": 34088
+                  }
+                ],
+                "stats": {
+                  "kill": 80957,
+                  "dead": 45924,
+                  "kills": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    80957,
+                    0,
+                    0,
+                    0
+                  ],
+                  "deads": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    45924,
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              },
+              {
+                "type": 13,
+                "moId": "67329b6adb218f55868bee4a",
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": {
+                  "parts": []
+                },
+                "wounded": [
+                  {
+                    "code": 50100106,
+                    "amount": 84015
+                  }
+                ],
+                "stats": {
+                  "kill": 32890,
+                  "dead": 21007,
+                  "kills": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    32890,
+                    0,
+                    0,
+                    0
+                  ],
+                  "deads": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    21007,
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              },
+              {
+                "type": 13,
+                "moId": "67329b85c903ddda9c7e8bde",
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100206,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100306,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": {
+                  "parts": []
+                },
+                "wounded": [
+                  {
+                    "code": 50100106,
+                    "amount": 58491
+                  },
+                  {
+                    "code": 50100206,
+                    "amount": 50785
+                  },
+                  {
+                    "code": 50100306,
+                    "amount": 14918
+                  }
+                ],
+                "stats": {
+                  "kill": 45996,
+                  "dead": 31054,
+                  "kills": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    45996,
+                    0,
+                    0,
+                    0
+                  ],
+                  "deads": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    31054,
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              },
+              {
+                "type": 13,
+                "moId": "67329be811503234537a23fb",
+                "troops": [
+                  {
+                    "code": 50100107,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100207,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100206,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100306,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": {
+                  "parts": []
+                },
+                "wounded": [
+                  {
+                    "code": 50100107,
+                    "amount": 154
+                  },
+                  {
+                    "code": 50100207,
+                    "amount": 55030
+                  },
+                  {
+                    "code": 50100106,
+                    "amount": 81287
+                  },
+                  {
+                    "code": 50100206,
+                    "amount": 131634
+                  },
+                  {
+                    "code": 50100306,
+                    "amount": 68284
+                  }
+                ],
+                "stats": {
+                  "kill": 137619,
+                  "dead": 84108,
+                  "kills": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    137619,
+                    0,
+                    0,
+                    0
+                  ],
+                  "deads": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    84108,
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              },
+              {
+                "type": 13,
+                "moId": "67329c2b8fddac11b4b09404",
+                "troops": [
+                  {
+                    "code": 50100107,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100207,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100307,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100206,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100306,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": {
+                  "_id": "665edc4f23be84b824007e16",
+                  "tokenId": 44602,
+                  "fusion": 5,
+                  "grade": 2,
+                  "level": 27,
+                  "parts": [
+                    {
+                      "code": 3,
+                      "attr": 4,
+                      "grade": 1,
+                      "_id": "67329c2b8fddac11b4b09532"
+                    },
+                    {
+                      "code": 3,
+                      "attr": 4,
+                      "grade": 2,
+                      "_id": "67329c2b8fddac11b4b09533"
+                    },
+                    {
+                      "code": 1,
+                      "attr": 4,
+                      "grade": 1,
+                      "_id": "67329c2b8fddac11b4b09534"
+                    },
+                    {
+                      "code": 1,
+                      "attr": 4,
+                      "grade": 1,
+                      "_id": "67329c2b8fddac11b4b09535"
+                    },
+                    {
+                      "code": 3,
+                      "attr": 4,
+                      "grade": 1,
+                      "_id": "67329c2b8fddac11b4b09536"
+                    },
+                    {
+                      "code": 3,
+                      "attr": 4,
+                      "grade": 1,
+                      "_id": "67329c2b8fddac11b4b09537"
+                    },
+                    {
+                      "code": 3,
+                      "attr": 4,
+                      "grade": 2,
+                      "_id": "67329c2b8fddac11b4b09538"
+                    }
+                  ]
+                },
+                "wounded": [
+                  {
+                    "code": 50100107,
+                    "amount": 39362
+                  },
+                  {
+                    "code": 50100207,
+                    "amount": 76782
+                  },
+                  {
+                    "code": 50100307,
+                    "amount": 38999
+                  },
+                  {
+                    "code": 50100106,
+                    "amount": 78456
+                  },
+                  {
+                    "code": 50100206,
+                    "amount": 38180
+                  },
+                  {
+                    "code": 50100306,
+                    "amount": 38921
+                  }
+                ],
+                "stats": {
+                  "kill": 156414,
+                  "dead": 77686,
+                  "kills": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    156414,
+                    0,
+                    0,
+                    0
+                  ],
+                  "deads": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    77686,
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              },
+              {
+                "type": 13,
+                "moId": "67329c31fcd08f10f794a741",
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100206,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100306,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": {
+                  "parts": []
+                },
+                "wounded": [
+                  {
+                    "code": 50100106,
+                    "amount": 7999
+                  },
+                  {
+                    "code": 50100206,
+                    "amount": 7998
+                  },
+                  {
+                    "code": 50100306,
+                    "amount": 3998
+                  }
+                ],
+                "stats": {
+                  "kill": 8825,
+                  "dead": 5005,
+                  "kills": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    8825,
+                    0,
+                    0,
+                    0
+                  ],
+                  "deads": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    5005,
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              },
+              {
+                "type": 13,
+                "moId": "67329c37edeff7649cba1d83",
+                "troops": [
+                  {
+                    "code": 50100107,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100207,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100206,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100306,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": {
+                  "parts": []
+                },
+                "wounded": [
+                  {
+                    "code": 50100107,
+                    "amount": 399
+                  },
+                  {
+                    "code": 50100207,
+                    "amount": 399
+                  },
+                  {
+                    "code": 50100106,
+                    "amount": 27999
+                  },
+                  {
+                    "code": 50100206,
+                    "amount": 31998
+                  },
+                  {
+                    "code": 50100306,
+                    "amount": 19197
+                  }
+                ],
+                "stats": {
+                  "kill": 36814,
+                  "dead": 20008,
+                  "kills": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    36814,
+                    0,
+                    0,
+                    0
+                  ],
+                  "deads": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    20008,
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              },
+              {
+                "type": 13,
+                "moId": "67329c38ddae3dc88434512c",
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100206,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100306,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": {
+                  "parts": []
+                },
+                "wounded": [
+                  {
+                    "code": 50100106,
+                    "amount": 31998
+                  },
+                  {
+                    "code": 50100206,
+                    "amount": 31998
+                  },
+                  {
+                    "code": 50100306,
+                    "amount": 15999
+                  }
+                ],
+                "stats": {
+                  "kill": 35455,
+                  "dead": 20005,
+                  "kills": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    35455,
+                    0,
+                    0,
+                    0
+                  ],
+                  "deads": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    20005,
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              },
+              {
+                "type": 13,
+                "moId": "67329c3fba4bd9ca89fceacf",
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100206,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100306,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": {
+                  "parts": []
+                },
+                "wounded": [
+                  {
+                    "code": 50100106,
+                    "amount": 63999
+                  },
+                  {
+                    "code": 50100206,
+                    "amount": 63999
+                  },
+                  {
+                    "code": 50100306,
+                    "amount": 31998
+                  }
+                ],
+                "stats": {
+                  "kill": 70332,
+                  "dead": 40004,
+                  "kills": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    70332,
+                    0,
+                    0,
+                    0
+                  ],
+                  "deads": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    40004,
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              },
+              {
+                "type": 13,
+                "moId": "67329c710747fc0081ff98f5",
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100206,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100306,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": {
+                  "parts": []
+                },
+                "wounded": [
+                  {
+                    "code": 50100106,
+                    "amount": 159998
+                  },
+                  {
+                    "code": 50100206,
+                    "amount": 159998
+                  },
+                  {
+                    "code": 50100306,
+                    "amount": 79998
+                  }
+                ],
+                "stats": {
+                  "kill": 176186,
+                  "dead": 100006,
+                  "kills": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    176186,
+                    0,
+                    0,
+                    0
+                  ],
+                  "deads": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    100006,
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              },
+              {
+                "type": 13,
+                "moId": "67329c8bb629b3cb7330ed2c",
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100206,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100306,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": {
+                  "parts": []
+                },
+                "wounded": [
+                  {
+                    "code": 50100106,
+                    "amount": 150540
+                  },
+                  {
+                    "code": 50100206,
+                    "amount": 144407
+                  },
+                  {
+                    "code": 50100306,
+                    "amount": 115447
+                  }
+                ],
+                "stats": {
+                  "kill": 204754,
+                  "dead": 102606,
+                  "kills": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    204754,
+                    0,
+                    0,
+                    0
+                  ],
+                  "deads": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    102606,
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              },
+              {
+                "type": 13,
+                "moId": "67329c923e2e5a24c39e47d0",
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100206,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  },
+                  {
+                    "code": 50100306,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": {
+                  "parts": []
+                },
+                "wounded": [
+                  {
+                    "code": 50100106,
+                    "amount": 60121
+                  },
+                  {
+                    "code": 50100206,
+                    "amount": 62681
+                  },
+                  {
+                    "code": 50100306,
+                    "amount": 37080
+                  }
+                ],
+                "stats": {
+                  "kill": 75594,
+                  "dead": 39978,
+                  "kills": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    75594,
+                    0,
+                    0,
+                    0
+                  ],
+                  "deads": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    39978,
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              },
+              {
+                "type": 13,
+                "moId": "67329cca4add1c0c51b6d723",
+                "troops": [
+                  {
+                    "code": 50100306,
+                    "level": 0,
+                    "select": 0,
+                    "amount": 0,
+                    "dead": 0,
+                    "wounded": 0,
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "seq": 0
+                  }
+                ],
+                "drago": {
+                  "parts": []
+                },
+                "wounded": [
+                  {
+                    "code": 50100306,
+                    "amount": 24729
+                  }
+                ],
+                "stats": {
+                  "kill": 28017,
+                  "dead": 6184,
+                  "kills": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    28017,
+                    0,
+                    0,
+                    0
+                  ],
+                  "deads": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    6184,
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              },
+              {
+                "type": 12,
+                "wallInfo": {
+                  "atkBuf": 0,
+                  "defBuf": 0
+                }
+              }
+            ]
+          ],
+          "deltaPower": [
+            -65393160,
+            -178049340
+          ],
+          "deltaTroops": [
+            [
+              {
+                "type": 1,
+                "troops": [
+                  {
+                    "code": 50100107,
+                    "amount": 622122,
+                    "dead": 41078,
+                    "wounded": 164302
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "amount": 210000,
+                    "dead": 20567,
+                    "wounded": 59015
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "amount": 250000,
+                    "dead": 24995,
+                    "wounded": 69746
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "troops": [
+                  {
+                    "code": 50100107,
+                    "amount": 336055,
+                    "dead": 29164,
+                    "wounded": 81780
+                  },
+                  {
+                    "code": 50100106,
+                    "amount": 71918,
+                    "dead": 7291,
+                    "wounded": 19965
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "amount": 100000,
+                    "dead": 8800,
+                    "wounded": 29098
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "troops": [
+                  {
+                    "code": 50100107,
+                    "amount": 4544,
+                    "dead": 350,
+                    "wounded": 1152
+                  },
+                  {
+                    "code": 50100106,
+                    "amount": 324888,
+                    "dead": 31035,
+                    "wounded": 92086
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "amount": 300000,
+                    "dead": 28779,
+                    "wounded": 84909
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "amount": 103355,
+                    "dead": 10168,
+                    "wounded": 29001
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "amount": 523600,
+                    "dead": 51461,
+                    "wounded": 146962
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "amount": 53518,
+                    "dead": 5019,
+                    "wounded": 15265
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "amount": 100000,
+                    "dead": 9226,
+                    "wounded": 28672
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": 13,
+                "troops": [
+                  {
+                    "code": 50100107,
+                    "amount": 1762,
+                    "dead": 355,
+                    "wounded": 1407
+                  },
+                  {
+                    "code": 50100207,
+                    "amount": 381,
+                    "dead": 77,
+                    "wounded": 304
+                  },
+                  {
+                    "code": 50100307,
+                    "amount": 329,
+                    "dead": 68,
+                    "wounded": 261
+                  },
+                  {
+                    "code": 50100106,
+                    "amount": 105127,
+                    "dead": 21027,
+                    "wounded": 84100
+                  },
+                  {
+                    "code": 50100206,
+                    "amount": 79351,
+                    "dead": 15872,
+                    "wounded": 63479
+                  },
+                  {
+                    "code": 50100306,
+                    "amount": 42613,
+                    "dead": 8525,
+                    "wounded": 34088
+                  }
+                ]
+              },
+              {
+                "type": 13,
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "amount": 105022,
+                    "dead": 21007,
+                    "wounded": 84015
+                  }
+                ]
+              },
+              {
+                "type": 13,
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "amount": 73116,
+                    "dead": 14625,
+                    "wounded": 58491
+                  },
+                  {
+                    "code": 50100206,
+                    "amount": 63483,
+                    "dead": 12698,
+                    "wounded": 50785
+                  },
+                  {
+                    "code": 50100306,
+                    "amount": 18649,
+                    "dead": 3731,
+                    "wounded": 14918
+                  }
+                ]
+              },
+              {
+                "type": 13,
+                "troops": [
+                  {
+                    "code": 50100107,
+                    "amount": 195,
+                    "dead": 41,
+                    "wounded": 154
+                  },
+                  {
+                    "code": 50100207,
+                    "amount": 68791,
+                    "dead": 13761,
+                    "wounded": 55030
+                  },
+                  {
+                    "code": 50100106,
+                    "amount": 101611,
+                    "dead": 20324,
+                    "wounded": 81287
+                  },
+                  {
+                    "code": 50100206,
+                    "amount": 164544,
+                    "dead": 32910,
+                    "wounded": 131634
+                  },
+                  {
+                    "code": 50100306,
+                    "amount": 85356,
+                    "dead": 17072,
+                    "wounded": 68284
+                  }
+                ]
+              },
+              {
+                "type": 13,
+                "troops": [
+                  {
+                    "code": 50100107,
+                    "amount": 49204,
+                    "dead": 9842,
+                    "wounded": 39362
+                  },
+                  {
+                    "code": 50100207,
+                    "amount": 95979,
+                    "dead": 19197,
+                    "wounded": 76782
+                  },
+                  {
+                    "code": 50100307,
+                    "amount": 48751,
+                    "dead": 9752,
+                    "wounded": 38999
+                  },
+                  {
+                    "code": 50100106,
+                    "amount": 98072,
+                    "dead": 19616,
+                    "wounded": 78456
+                  },
+                  {
+                    "code": 50100206,
+                    "amount": 47727,
+                    "dead": 9547,
+                    "wounded": 38180
+                  },
+                  {
+                    "code": 50100306,
+                    "amount": 48653,
+                    "dead": 9732,
+                    "wounded": 38921
+                  }
+                ]
+              },
+              {
+                "type": 13,
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "amount": 10000,
+                    "dead": 2001,
+                    "wounded": 7999
+                  },
+                  {
+                    "code": 50100206,
+                    "amount": 10000,
+                    "dead": 2002,
+                    "wounded": 7998
+                  },
+                  {
+                    "code": 50100306,
+                    "amount": 5000,
+                    "dead": 1002,
+                    "wounded": 3998
+                  }
+                ]
+              },
+              {
+                "type": 13,
+                "troops": [
+                  {
+                    "code": 50100107,
+                    "amount": 500,
+                    "dead": 101,
+                    "wounded": 399
+                  },
+                  {
+                    "code": 50100207,
+                    "amount": 500,
+                    "dead": 101,
+                    "wounded": 399
+                  },
+                  {
+                    "code": 50100106,
+                    "amount": 35000,
+                    "dead": 7001,
+                    "wounded": 27999
+                  },
+                  {
+                    "code": 50100206,
+                    "amount": 40000,
+                    "dead": 8002,
+                    "wounded": 31998
+                  },
+                  {
+                    "code": 50100306,
+                    "amount": 24000,
+                    "dead": 4803,
+                    "wounded": 19197
+                  }
+                ]
+              },
+              {
+                "type": 13,
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "amount": 40000,
+                    "dead": 8002,
+                    "wounded": 31998
+                  },
+                  {
+                    "code": 50100206,
+                    "amount": 40000,
+                    "dead": 8002,
+                    "wounded": 31998
+                  },
+                  {
+                    "code": 50100306,
+                    "amount": 20000,
+                    "dead": 4001,
+                    "wounded": 15999
+                  }
+                ]
+              },
+              {
+                "type": 13,
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "amount": 80000,
+                    "dead": 16001,
+                    "wounded": 63999
+                  },
+                  {
+                    "code": 50100206,
+                    "amount": 80000,
+                    "dead": 16001,
+                    "wounded": 63999
+                  },
+                  {
+                    "code": 50100306,
+                    "amount": 40000,
+                    "dead": 8002,
+                    "wounded": 31998
+                  }
+                ]
+              },
+              {
+                "type": 13,
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "amount": 200000,
+                    "dead": 40002,
+                    "wounded": 159998
+                  },
+                  {
+                    "code": 50100206,
+                    "amount": 200000,
+                    "dead": 40002,
+                    "wounded": 159998
+                  },
+                  {
+                    "code": 50100306,
+                    "amount": 100000,
+                    "dead": 20002,
+                    "wounded": 79998
+                  }
+                ]
+              },
+              {
+                "type": 13,
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "amount": 188177,
+                    "dead": 37637,
+                    "wounded": 150540
+                  },
+                  {
+                    "code": 50100206,
+                    "amount": 180510,
+                    "dead": 36103,
+                    "wounded": 144407
+                  },
+                  {
+                    "code": 50100306,
+                    "amount": 144313,
+                    "dead": 28866,
+                    "wounded": 115447
+                  }
+                ]
+              },
+              {
+                "type": 13,
+                "troops": [
+                  {
+                    "code": 50100106,
+                    "amount": 75154,
+                    "dead": 15033,
+                    "wounded": 60121
+                  },
+                  {
+                    "code": 50100206,
+                    "amount": 78353,
+                    "dead": 15672,
+                    "wounded": 62681
+                  },
+                  {
+                    "code": 50100306,
+                    "amount": 46353,
+                    "dead": 9273,
+                    "wounded": 37080
+                  }
+                ]
+              },
+              {
+                "type": 13,
+                "troops": [
+                  {
+                    "code": 50100306,
+                    "amount": 30913,
+                    "dead": 6184,
+                    "wounded": 24729
+                  }
+                ]
+              }
+            ]
+          ],
+          "gainResources": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "my": 1
+      },
+      {
+        "type": 7,
+        "troops": [
+          [
+            {
+              "type": 1,
+              "moId": "67329c46fc9de3ee3fe325af",
+              "troops": [
+                {
+                  "code": 50100107,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 622122,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                }
+              ],
+              "drago": {
+                "_id": "66ac5e07a663d6d046c9617e",
+                "tokenId": 45019,
+                "fusion": 7,
+                "grade": 4,
+                "level": 30,
+                "parts": [
+                  {
+                    "grade": 2,
+                    "code": 8,
+                    "attr": 1
+                  },
+                  {
+                    "grade": 1,
+                    "code": 8,
+                    "attr": 1
+                  },
+                  {
+                    "grade": 2,
+                    "code": 8,
+                    "attr": 1
+                  },
+                  {
+                    "grade": 2,
+                    "code": 8,
+                    "attr": 1
+                  },
+                  {
+                    "grade": 2,
+                    "code": 8,
+                    "attr": 1
+                  },
+                  {
+                    "grade": 1,
+                    "code": 8,
+                    "attr": 1
+                  },
+                  {
+                    "grade": 1,
+                    "code": 8,
+                    "attr": 1
+                  }
+                ]
+              },
+              "kingdom": {
+                "_id": "61a9b20a46eab20cb948c7f0",
+                "level": 35,
+                "power": 603425970,
+                "name": "BLACK MYTH IMP",
+                "skin": {
+                  "itemId": "6511f7f9b04e372ab7868291"
+                },
+                "faceCode": 0,
+                "congressTitle": 103,
+                "lord": {
+                  "level": 50,
+                  "xp": 30526740,
+                  "point": 0
+                },
+                "worldId": 24
+              }
+            },
+            {
+              "type": 1,
+              "moId": "67329c538f07499f2192cd45",
+              "troops": [
+                {
+                  "_id": "659d671346a587613a271b86",
+                  "code": 50100106,
+                  "amount": 210000
+                }
+              ],
+              "drago": null,
+              "kingdom": {
+                "_id": "61b841c8bbe4af7f66ac3f49",
+                "level": 35,
+                "power": 628517717,
+                "name": "Eayon_lee",
+                "skin": {
+                  "itemId": "6723b92ecaac2cbef65542b7"
+                },
+                "faceCode": 1018729,
+                "congressTitle": 0,
+                "lord": {
+                  "level": 50,
+                  "xp": 31491680,
+                  "point": 14
+                },
+                "worldId": 24
+              }
+            },
+            {
+              "type": 1,
+              "moId": "67329c57a9e87002f9c7ced1",
+              "troops": [
+                {
+                  "code": 50100106,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 250000,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                }
+              ],
+              "drago": null,
+              "kingdom": {
+                "_id": "61dd6ef722fbdc3c9104e63b",
+                "level": 35,
+                "power": 334251053,
+                "name": "Abbas Land Ω",
+                "skin": {
+                  "itemId": "65cc73e78272c24ae7ac0ea5"
+                },
+                "faceCode": 0,
+                "congressTitle": 0,
+                "lord": {
+                  "level": 50,
+                  "xp": 17784900,
+                  "point": 0
+                },
+                "worldId": 24
+              }
+            },
+            {
+              "type": 1,
+              "moId": "67329c59417226d9219b9ac3",
+              "troops": [
+                {
+                  "code": 50100107,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 336055,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                },
+                {
+                  "code": 50100106,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 71918,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                }
+              ],
+              "drago": null,
+              "kingdom": {
+                "_id": "6210c8119852e7681b18eea3",
+                "level": 35,
+                "power": 517692420,
+                "name": "Muhtar Adayı ★",
+                "skin": {
+                  "itemId": "6726e48f8f9221ab59d6db36"
+                },
+                "faceCode": 0,
+                "congressTitle": 0,
+                "lord": {
+                  "level": 50,
+                  "xp": 22169370,
+                  "point": 0
+                },
+                "worldId": 24
+              }
+            },
+            {
+              "type": 1,
+              "moId": "67329c5c109ee24f7bed3ce1",
+              "troops": [
+                {
+                  "code": 50100106,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 100000,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                }
+              ],
+              "drago": null,
+              "kingdom": {
+                "_id": "61ddaa63dbdda84557eddf98",
+                "level": 35,
+                "power": 528110947,
+                "name": "♦Pinky♦",
+                "skin": {
+                  "itemId": "6726bb4e6e8cf42cc7b099cb"
+                },
+                "faceCode": 0,
+                "congressTitle": 0,
+                "lord": {
+                  "level": 50,
+                  "xp": 15249060,
+                  "point": 0
+                },
+                "worldId": 24
+              }
+            },
+            {
+              "type": 1,
+              "moId": "67329c6381d99aba681e0f07",
+              "troops": [
+                {
+                  "code": 50100107,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 4544,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                },
+                {
+                  "code": 50100106,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 324888,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                }
+              ],
+              "drago": null,
+              "kingdom": {
+                "_id": "612133918e86604660372aa6",
+                "level": 35,
+                "power": 341342832,
+                "name": "Keyhouse",
+                "skin": {
+                  "itemId": "65453b3d053ed310610a752e"
+                },
+                "faceCode": 0,
+                "congressTitle": 0,
+                "lord": {
+                  "level": 50,
+                  "xp": 15322530,
+                  "point": 0
+                },
+                "worldId": 24
+              }
+            },
+            {
+              "type": 1,
+              "moId": "67329c66480fdcdbf554b2a4",
+              "troops": [
+                {
+                  "code": 50100106,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 300000,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                }
+              ],
+              "drago": null,
+              "kingdom": {
+                "_id": "629262ccf62ea86e47b4ec0f",
+                "level": 35,
+                "power": 468567761,
+                "name": "ScoutMeBaby.",
+                "skin": {
+                  "itemId": "6695238c4b12987eb3d2e32e"
+                },
+                "faceCode": 7025449,
+                "congressTitle": 0,
+                "lord": {
+                  "level": 50,
+                  "xp": 9671250,
+                  "point": 0
+                },
+                "worldId": 24
+              }
+            },
+            {
+              "type": 1,
+              "moId": "67329c67109ee24f7befb624",
+              "troops": [
+                {
+                  "code": 50100106,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 103355,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                }
+              ],
+              "drago": null,
+              "kingdom": {
+                "_id": "607337d35058a85cf81d8235",
+                "level": 35,
+                "power": 504265142,
+                "name": "Krash",
+                "skin": {
+                  "itemId": "6725f9917b7c1d207a62a0e8"
+                },
+                "faceCode": 7010277,
+                "congressTitle": 0,
+                "lord": {
+                  "level": 50,
+                  "xp": 26991950,
+                  "point": 0
+                },
+                "worldId": 24
+              }
+            },
+            {
+              "type": 1,
+              "moId": "67329c778f07499f219641d0",
+              "troops": [
+                {
+                  "code": 50100106,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 523600,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                }
+              ],
+              "drago": null,
+              "kingdom": {
+                "_id": "6241801beaf4570489b3ff1b",
+                "level": 35,
+                "power": 357734926,
+                "name": "Lucky^^ Ω",
+                "skin": {
+                  "itemId": "6727f19ca2007feb8830fca5"
+                },
+                "faceCode": 4,
+                "congressTitle": 0,
+                "lord": {
+                  "level": 50,
+                  "xp": 25491680,
+                  "point": 0
+                },
+                "worldId": 24
+              }
+            },
+            {
+              "type": 1,
+              "moId": "67329c7b8f07499f21967c64",
+              "troops": [
+                {
+                  "code": 50100106,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 53518,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                }
+              ],
+              "drago": null,
+              "kingdom": {
+                "_id": "619ee0b483c2d50c46a519a5",
+                "level": 35,
+                "power": 445495958,
+                "name": "Caros ★",
+                "skin": {
+                  "itemId": "67272ca317392d44d8797b5a"
+                },
+                "faceCode": 7043129,
+                "congressTitle": 0,
+                "lord": {
+                  "level": 50,
+                  "xp": 36230720,
+                  "point": 24
+                },
+                "worldId": 24
+              }
+            },
+            {
+              "type": 1,
+              "moId": "67329c910dd8a5b477d759eb",
+              "troops": [
+                {
+                  "code": 50100106,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 100000,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                }
+              ],
+              "drago": null,
+              "kingdom": {
+                "_id": "61e0085ac36f9319ecdb4221",
+                "level": 35,
+                "power": 550656441,
+                "name": "<a>TAHITI</a>",
+                "skin": {
+                  "itemId": "62e42e5a0fb88c12e52c5669"
+                },
+                "faceCode": 0,
+                "congressTitle": 0,
+                "lord": {
+                  "level": 50,
+                  "xp": 21922020,
+                  "point": 2
+                },
+                "worldId": 24
+              }
+            }
+          ],
+          [
+            {
+              "type": 13,
+              "moId": "67329ae98ae5b938599b7972",
+              "troops": [
+                {
+                  "code": 50100107,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 1762,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                },
+                {
+                  "code": 50100207,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 381,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                },
+                {
+                  "code": 50100307,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 329,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                },
+                {
+                  "code": 50100106,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 105127,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                },
+                {
+                  "code": 50100206,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 79351,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                },
+                {
+                  "code": 50100306,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 42613,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                }
+              ],
+              "drago": {
+                "_id": "652ef61b6aab7d51df90a8f9",
+                "tokenId": 42620,
+                "fusion": 5,
+                "grade": 2,
+                "level": 30,
+                "parts": [
+                  {
+                    "code": 3,
+                    "attr": 4,
+                    "grade": 1,
+                    "_id": "67329ae98ae5b938599b7aa4"
+                  },
+                  {
+                    "code": 3,
+                    "attr": 4,
+                    "grade": 1,
+                    "_id": "67329ae98ae5b938599b7aa5"
+                  },
+                  {
+                    "code": 3,
+                    "attr": 4,
+                    "grade": 1,
+                    "_id": "67329ae98ae5b938599b7aa6"
+                  },
+                  {
+                    "code": 1,
+                    "attr": 4,
+                    "grade": 1,
+                    "_id": "67329ae98ae5b938599b7aa7"
+                  },
+                  {
+                    "code": 2,
+                    "attr": 4,
+                    "grade": 2,
+                    "_id": "67329ae98ae5b938599b7aa8"
+                  },
+                  {
+                    "code": 2,
+                    "attr": 4,
+                    "grade": 1,
+                    "_id": "67329ae98ae5b938599b7aa9"
+                  },
+                  {
+                    "code": 2,
+                    "attr": 4,
+                    "grade": 2,
+                    "_id": "67329ae98ae5b938599b7aaa"
+                  }
+                ]
+              },
+              "kingdom": {
+                "_id": "6386e24b2cd263693c51392b",
+                "level": 35,
+                "power": 616142870,
+                "name": "bigA",
+                "skin": {
+                  "itemId": "655f676bf5755018958be363"
+                },
+                "faceCode": 0,
+                "congressTitle": 105,
+                "lord": {
+                  "level": 50,
+                  "xp": 14016580,
+                  "point": 0
+                },
+                "worldId": 2
+              }
+            },
+            {
+              "type": 13,
+              "moId": "67329b6adb218f55868bee4a",
+              "troops": [
+                {
+                  "code": 50100106,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 105022,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                }
+              ],
+              "drago": {
+                "parts": []
+              },
+              "kingdom": {
+                "_id": "6160684b11c6b375d6c34820",
+                "level": 35,
+                "power": 144047449,
+                "name": "Kandor",
+                "skin": {
+                  "itemId": "62de044bcfc0231a3f711536"
+                },
+                "faceCode": 0,
+                "congressTitle": 0,
+                "lord": {
+                  "level": 50,
+                  "xp": 21356730,
+                  "point": 0
+                },
+                "worldId": 2
+              }
+            },
+            {
+              "type": 13,
+              "moId": "67329b85c903ddda9c7e8bde",
+              "troops": [
+                {
+                  "code": 50100106,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 73116,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                },
+                {
+                  "code": 50100206,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 63483,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                },
+                {
+                  "code": 50100306,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 18649,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                }
+              ],
+              "drago": {
+                "parts": []
+              },
+              "kingdom": {
+                "_id": "63b8789f21fc50575db2982a",
+                "level": 34,
+                "power": 167917383,
+                "name": "U-GOD",
+                "skin": {
+                  "itemId": "6727c6ffae72eb5733b94439"
+                },
+                "faceCode": 0,
+                "congressTitle": 0,
+                "lord": {
+                  "level": 50,
+                  "xp": 9805090,
+                  "point": 0
+                },
+                "worldId": 2
+              }
+            },
+            {
+              "type": 13,
+              "moId": "67329be811503234537a23fb",
+              "troops": [
+                {
+                  "code": 50100107,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 195,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                },
+                {
+                  "code": 50100207,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 68791,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                },
+                {
+                  "code": 50100106,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 101611,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                },
+                {
+                  "code": 50100206,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 164544,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                },
+                {
+                  "code": 50100306,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 85356,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                }
+              ],
+              "drago": {
+                "parts": []
+              },
+              "kingdom": {
+                "_id": "616086c5dadaaf7524249751",
+                "level": 35,
+                "power": 374475950,
+                "name": "Alamirey",
+                "skin": {
+                  "itemId": "61b88363f06d7f0c97dbc481"
+                },
+                "faceCode": 0,
+                "congressTitle": 104,
+                "lord": {
+                  "level": 50,
+                  "xp": 29150460,
+                  "point": 0
+                },
+                "worldId": 2
+              }
+            },
+            {
+              "type": 13,
+              "moId": "67329c2b8fddac11b4b09404",
+              "troops": [
+                {
+                  "code": 50100107,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 49204,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                },
+                {
+                  "code": 50100207,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 95979,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                },
+                {
+                  "code": 50100307,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 48751,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                },
+                {
+                  "code": 50100106,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 98072,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                },
+                {
+                  "code": 50100206,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 47727,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                },
+                {
+                  "code": 50100306,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 48653,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                }
+              ],
+              "drago": {
+                "_id": "665edc4f23be84b824007e16",
+                "tokenId": 44602,
+                "fusion": 5,
+                "grade": 2,
+                "level": 27,
+                "parts": [
+                  {
+                    "code": 3,
+                    "attr": 4,
+                    "grade": 1,
+                    "_id": "67329c2b8fddac11b4b09532"
+                  },
+                  {
+                    "code": 3,
+                    "attr": 4,
+                    "grade": 2,
+                    "_id": "67329c2b8fddac11b4b09533"
+                  },
+                  {
+                    "code": 1,
+                    "attr": 4,
+                    "grade": 1,
+                    "_id": "67329c2b8fddac11b4b09534"
+                  },
+                  {
+                    "code": 1,
+                    "attr": 4,
+                    "grade": 1,
+                    "_id": "67329c2b8fddac11b4b09535"
+                  },
+                  {
+                    "code": 3,
+                    "attr": 4,
+                    "grade": 1,
+                    "_id": "67329c2b8fddac11b4b09536"
+                  },
+                  {
+                    "code": 3,
+                    "attr": 4,
+                    "grade": 1,
+                    "_id": "67329c2b8fddac11b4b09537"
+                  },
+                  {
+                    "code": 3,
+                    "attr": 4,
+                    "grade": 2,
+                    "_id": "67329c2b8fddac11b4b09538"
+                  }
+                ]
+              },
+              "kingdom": {
+                "_id": "62acc8d72a4d8e17a9e62ad1",
+                "level": 35,
+                "power": 559599502,
+                "name": "NY212",
+                "skin": {
+                  "itemId": "65a3fd7b73304b0d3277445b"
+                },
+                "faceCode": 0,
+                "congressTitle": 0,
+                "lord": {
+                  "level": 50,
+                  "xp": 13957380,
+                  "point": 0
+                },
+                "worldId": 2
+              }
+            },
+            {
+              "type": 13,
+              "moId": "67329c31fcd08f10f794a741",
+              "troops": [
+                {
+                  "code": 50100106,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 10000,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                },
+                {
+                  "code": 50100206,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 10000,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                },
+                {
+                  "code": 50100306,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 5000,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                }
+              ],
+              "drago": {
+                "parts": []
+              },
+              "kingdom": {
+                "_id": "60dbb8ed00f7d20e8fc2a48d",
+                "level": 34,
+                "power": 282807345,
+                "name": "—CAYYYY–",
+                "skin": {
+                  "itemId": "659fae4ba306df0758872252"
+                },
+                "faceCode": 0,
+                "congressTitle": 0,
+                "lord": {
+                  "level": 50,
+                  "xp": 11592370,
+                  "point": 0
+                },
+                "worldId": 2
+              }
+            },
+            {
+              "type": 13,
+              "moId": "67329c37edeff7649cba1d83",
+              "troops": [
+                {
+                  "code": 50100107,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 500,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                },
+                {
+                  "code": 50100207,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 500,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                },
+                {
+                  "code": 50100106,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 35000,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                },
+                {
+                  "code": 50100206,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 40000,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                },
+                {
+                  "code": 50100306,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 24000,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                }
+              ],
+              "drago": {
+                "parts": []
+              },
+              "kingdom": {
+                "_id": "61df701216e71b114b2d64bd",
+                "level": 35,
+                "power": 417119034,
+                "name": "HamidK",
+                "skin": {
+                  "itemId": "63db020c026ab2048d75b34b"
+                },
+                "faceCode": 0,
+                "congressTitle": 0,
+                "lord": {
+                  "level": 50,
+                  "xp": 17921300,
+                  "point": 0
+                },
+                "worldId": 2
+              }
+            },
+            {
+              "type": 13,
+              "moId": "67329c38ddae3dc88434512c",
+              "troops": [
+                {
+                  "code": 50100106,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 40000,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                },
+                {
+                  "code": 50100206,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 40000,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                },
+                {
+                  "code": 50100306,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 20000,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                }
+              ],
+              "drago": {
+                "parts": []
+              },
+              "kingdom": {
+                "_id": "61dff68e6dda723d20058e52",
+                "level": 35,
+                "power": 320324523,
+                "name": "Densky ▼",
+                "skin": {
+                  "itemId": "65c0d7d5be43e44bcc90b0c9"
+                },
+                "faceCode": 0,
+                "congressTitle": 0,
+                "lord": {
+                  "level": 50,
+                  "xp": 21053730,
+                  "point": 0
+                },
+                "worldId": 2
+              }
+            },
+            {
+              "type": 13,
+              "moId": "67329c3fba4bd9ca89fceacf",
+              "troops": [
+                {
+                  "code": 50100106,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 80000,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                },
+                {
+                  "code": 50100206,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 80000,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                },
+                {
+                  "code": 50100306,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 40000,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                }
+              ],
+              "drago": {
+                "parts": []
+              },
+              "kingdom": {
+                "_id": "62041a46e992b44a9d8c1589",
+                "level": 35,
+                "power": 566267780,
+                "name": "Galicum",
+                "skin": {
+                  "itemId": "624a3c2fc20c926f0857d05d"
+                },
+                "faceCode": 1015100,
+                "congressTitle": 103,
+                "lord": {
+                  "level": 50,
+                  "xp": 8606600,
+                  "point": 0
+                },
+                "worldId": 2
+              }
+            },
+            {
+              "type": 13,
+              "moId": "67329c710747fc0081ff98f5",
+              "troops": [
+                {
+                  "code": 50100106,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 200000,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                },
+                {
+                  "code": 50100206,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 200000,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                },
+                {
+                  "code": 50100306,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 100000,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                }
+              ],
+              "drago": {
+                "parts": []
+              },
+              "kingdom": {
+                "_id": "61de204cb529d41012e830ac",
+                "level": 35,
+                "power": 540059432,
+                "name": "tronald.dump",
+                "skin": {
+                  "itemId": "669c2149f7d9b37ea73c5b4b"
+                },
+                "faceCode": 1018594,
+                "congressTitle": 0,
+                "lord": {
+                  "level": 50,
+                  "xp": 10052350,
+                  "point": 0
+                },
+                "worldId": 2
+              }
+            },
+            {
+              "type": 13,
+              "moId": "67329c8bb629b3cb7330ed2c",
+              "troops": [
+                {
+                  "code": 50100106,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 188177,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                },
+                {
+                  "code": 50100206,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 180510,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                },
+                {
+                  "code": 50100306,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 144313,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                }
+              ],
+              "drago": {
+                "parts": []
+              },
+              "kingdom": {
+                "_id": "6169a073852452726c48fe93",
+                "level": 35,
+                "power": 542156806,
+                "name": "Lukedom",
+                "skin": {
+                  "itemId": "632d85a9d3c37227d8924606"
+                },
+                "faceCode": 0,
+                "congressTitle": 108,
+                "lord": {
+                  "level": 50,
+                  "xp": 10328390,
+                  "point": 6
+                },
+                "worldId": 2
+              }
+            },
+            {
+              "type": 13,
+              "moId": "67329c923e2e5a24c39e47d0",
+              "troops": [
+                {
+                  "code": 50100106,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 75154,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                },
+                {
+                  "code": 50100206,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 78353,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                },
+                {
+                  "code": 50100306,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 46353,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                }
+              ],
+              "drago": {
+                "parts": []
+              },
+              "kingdom": {
+                "_id": "60982698a21f4a4aa9c007a4",
+                "level": 35,
+                "power": 378376382,
+                "name": "Farmer Domay",
+                "skin": {
+                  "itemId": "6498df56a827966865a7e51f"
+                },
+                "faceCode": 7036086,
+                "congressTitle": 0,
+                "lord": {
+                  "level": 50,
+                  "xp": 25258810,
+                  "point": 0
+                },
+                "worldId": 2
+              }
+            },
+            {
+              "type": 13,
+              "moId": "67329cca4add1c0c51b6d723",
+              "troops": [
+                {
+                  "code": 50100306,
+                  "level": 0,
+                  "select": 0,
+                  "amount": 30913,
+                  "dead": 0,
+                  "wounded": 0,
+                  "hp": 0,
+                  "attack": 0,
+                  "defense": 0,
+                  "seq": 0
+                }
+              ],
+              "drago": {
+                "parts": []
+              },
+              "kingdom": {
+                "_id": "621f626cd927fa2259786036",
+                "level": 34,
+                "power": 152441238,
+                "name": "MuratAlberto",
+                "skin": {
+                  "itemId": "635f7d36b864dc259f475a5f"
+                },
+                "faceCode": 0,
+                "congressTitle": 0,
+                "lord": {
+                  "level": 50,
+                  "xp": 8103790,
+                  "point": 5
+                },
+                "worldId": 2
+              }
+            }
+          ]
+        ],
+        "my": 1
+      },
+      {
+        "type": 31,
+        "masteries": [
+          {
+            "groups": [
+              {
+                "group": 16,
+                "numPoint": 21
+              },
+              {
+                "group": 14,
+                "numPoint": 13
+              },
+              {
+                "group": 11,
+                "numPoint": 28
+              },
+              {
+                "group": 12,
+                "numPoint": 21
+              }
+            ],
+            "level": 50
+          },
+          {
+            "groups": [
+              {
+                "group": 11,
+                "numPoint": 30
+              },
+              {
+                "group": 12,
+                "numPoint": 25
+              },
+              {
+                "group": 14,
+                "numPoint": 15
+              },
+              {
+                "group": 16,
+                "numPoint": 11
+              }
+            ],
+            "level": 50
+          }
+        ],
+        "my": 1
+      },
+      {
+        "type": 29,
+        "treasures": [
+          [
+            {
+              "slot": 0,
+              "item": {
+                "_id": "64b217540b49563039a81d8d",
+                "code": 10505001,
+                "amount": 1,
+                "piece": 86,
+                "level": 5,
+                "skillLevel": [
+                  5,
+                  5,
+                  5,
+                  5,
+                  5
+                ],
+                "equipped": true
+              }
+            },
+            {
+              "slot": 1,
+              "item": {
+                "_id": "61c5417fdc1670c38e95705c",
+                "code": 10504003,
+                "amount": 1,
+                "piece": 1721,
+                "level": 5,
+                "skillLevel": [
+                  5,
+                  5,
+                  5,
+                  5,
+                  5
+                ],
+                "equipped": true
+              }
+            },
+            {
+              "slot": 2,
+              "item": {
+                "_id": "64b7757b7c49e9c2626ed0fc",
+                "code": 10505004,
+                "amount": 1,
+                "piece": 10,
+                "level": 5,
+                "skillLevel": [
+                  5,
+                  5,
+                  5,
+                  5,
+                  5
+                ],
+                "equipped": true
+              }
+            },
+            {
+              "slot": 3,
+              "item": {
+                "_id": "6265e5a6ecbda63381237de1",
+                "code": 10504015,
+                "amount": 1,
+                "piece": 106,
+                "level": 5,
+                "skillLevel": [
+                  5,
+                  5,
+                  5,
+                  5,
+                  5
+                ],
+                "equipped": true
+              }
+            },
+            {
+              "slot": 4,
+              "item": {
+                "_id": "61c6c4dd5e42108923c8846a",
+                "code": 10504005,
+                "amount": 1,
+                "piece": 1884,
+                "level": 5,
+                "skillLevel": [
+                  5,
+                  5,
+                  5,
+                  5,
+                  5
+                ],
+                "equipped": true
+              }
+            },
+            {
+              "slot": 5,
+              "item": {
+                "_id": "64b76fe07c49e9c26254a2cd",
+                "code": 10505005,
+                "amount": 1,
+                "piece": 14,
+                "level": 3,
+                "skillLevel": [
+                  4,
+                  5,
+                  5,
+                  1,
+                  5
+                ],
+                "equipped": true
+              }
+            }
+          ],
+          [
+            {
+              "slot": 0,
+              "item": {
+                "_id": "647d27822160376cdb265485",
+                "code": 10504015,
+                "amount": 1,
+                "piece": 76,
+                "level": 5,
+                "skillLevel": [
+                  5,
+                  5,
+                  5,
+                  5,
+                  5
+                ],
+                "equipped": true
+              }
+            },
+            {
+              "slot": 1,
+              "item": {
+                "_id": "6517953c57295e50af816c10",
+                "code": 10505003,
+                "amount": 1,
+                "piece": 14,
+                "level": 4,
+                "skillLevel": [
+                  5,
+                  5,
+                  5,
+                  5,
+                  1
+                ],
+                "equipped": true
+              }
+            },
+            {
+              "slot": 2,
+              "item": {
+                "_id": "64b9f2b27c49e9c2622fae0e",
+                "code": 10505001,
+                "amount": 1,
+                "piece": 49,
+                "level": 3,
+                "skillLevel": [
+                  5,
+                  5,
+                  5,
+                  0,
+                  3
+                ],
+                "equipped": true
+              }
+            },
+            {
+              "slot": 3,
+              "item": {
+                "_id": "638c32d7b8f1e57cbf95a01f",
+                "code": 10504004,
+                "amount": 1,
+                "piece": 1024,
+                "level": 5,
+                "skillLevel": [
+                  5,
+                  5,
+                  5,
+                  5,
+                  5
+                ],
+                "equipped": true
+              }
+            },
+            {
+              "slot": 4,
+              "item": {
+                "_id": "64bf1a8e7c49e9c262b17f6b",
+                "code": 10505004,
+                "amount": 1,
+                "piece": 4,
+                "level": 5,
+                "skillLevel": [
+                  5,
+                  5,
+                  5,
+                  5,
+                  5
+                ],
+                "equipped": true
+              }
+            },
+            {
+              "slot": 5,
+              "item": {
+                "_id": "639fe14fb8f1e57cbf42c3b4",
+                "code": 10504005,
+                "amount": 1,
+                "piece": 1256,
+                "level": 5,
+                "skillLevel": [
+                  5,
+                  5,
+                  5,
+                  5,
+                  5
+                ],
+                "equipped": true
+              }
+            }
+          ]
+        ],
+        "my": 1
+      },
+      {
+        "type": 8,
+        "boosts": [
+          [
+            [
+              68,
+              2,
+              1.65
+            ],
+            [
+              66,
+              2,
+              1.5
+            ],
+            [
+              30,
+              2,
+              1.52
+            ],
+            [
+              31,
+              2,
+              0.95
+            ],
+            [
+              27,
+              2,
+              0.5
+            ],
+            [
+              28,
+              2,
+              0.5
+            ],
+            [
+              87,
+              2,
+              0.3
+            ],
+            [
+              69,
+              2,
+              0.66
+            ],
+            [
+              50,
+              2,
+              3.38
+            ],
+            [
+              52,
+              2,
+              1.95
+            ],
+            [
+              51,
+              2,
+              1.77
+            ],
+            [
+              54,
+              2,
+              1.77
+            ],
+            [
+              57,
+              2,
+              1.78
+            ],
+            [
+              55,
+              2,
+              1.75
+            ],
+            [
+              58,
+              2,
+              1.55
+            ],
+            [
+              60,
+              2,
+              0.5700000000000001
+            ],
+            [
+              61,
+              2,
+              0.75
+            ],
+            [
+              53,
+              2,
+              3.13
+            ],
+            [
+              56,
+              2,
+              3.09
+            ],
+            [
+              59,
+              2,
+              0.93
+            ],
+            [
+              12,
+              2,
+              0.65
+            ],
+            [
+              67,
+              2,
+              0.9800000000000001
+            ],
+            [
+              63,
+              2,
+              0.9500000000000001
+            ],
+            [
+              65,
+              2,
+              2
+            ],
+            [
+              64,
+              2,
+              0.9500000000000001
+            ],
+            [
+              62,
+              2,
+              1.4000000000000001
+            ],
+            [
+              29,
+              2,
+              0.95
+            ],
+            [
+              19,
+              2,
+              1.19
+            ],
+            [
+              13,
+              2,
+              0.6
+            ],
+            [
+              209,
+              2,
+              0.9000000000000001
+            ],
+            [
+              210,
+              2,
+              0.7
+            ],
+            [
+              211,
+              2,
+              0.55
+            ],
+            [
+              20,
+              2,
+              0.33000000000000007
+            ]
+          ],
+          [
+            [
+              68,
+              2,
+              1.2
+            ],
+            [
+              66,
+              2,
+              0.96
+            ],
+            [
+              30,
+              2,
+              1.31
+            ],
+            [
+              31,
+              2,
+              0.75
+            ],
+            [
+              27,
+              2,
+              0.6
+            ],
+            [
+              28,
+              2,
+              0.6
+            ],
+            [
+              87,
+              2,
+              0.3
+            ],
+            [
+              69,
+              2,
+              0.66
+            ],
+            [
+              50,
+              2,
+              2.54
+            ],
+            [
+              51,
+              2,
+              2.7199999999999998
+            ],
+            [
+              52,
+              2,
+              1.8
+            ],
+            [
+              53,
+              2,
+              2.59
+            ],
+            [
+              55,
+              2,
+              1.4
+            ],
+            [
+              54,
+              2,
+              2.12
+            ],
+            [
+              56,
+              2,
+              2.4400000000000004
+            ],
+            [
+              57,
+              2,
+              2.29
+            ],
+            [
+              60,
+              2,
+              0.77
+            ],
+            [
+              58,
+              2,
+              1.6
+            ],
+            [
+              59,
+              2,
+              0.7300000000000001
+            ],
+            [
+              61,
+              2,
+              0.75
+            ],
+            [
+              12,
+              2,
+              0.55
+            ],
+            [
+              62,
+              2,
+              1.2000000000000002
+            ],
+            [
+              63,
+              2,
+              1.1500000000000001
+            ],
+            [
+              64,
+              2,
+              0.9500000000000001
+            ],
+            [
+              65,
+              2,
+              1.1
+            ],
+            [
+              67,
+              2,
+              1.21
+            ],
+            [
+              29,
+              2,
+              0.95
+            ],
+            [
+              19,
+              2,
+              0.95
+            ],
+            [
+              13,
+              2,
+              0.55
+            ],
+            [
+              209,
+              2,
+              1.2610000000000003
+            ],
+            [
+              210,
+              2,
+              1.3610000000000002
+            ],
+            [
+              211,
+              2,
+              1.05
+            ],
+            [
+              20,
+              2,
+              0.31000000000000005
+            ]
+          ]
+        ],
+        "my": 1
+      }
+    ],
+    "__v": 0
+  }
+}
