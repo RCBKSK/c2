@@ -176,8 +176,6 @@ if __name__ == "__main__":
                 logger.info(f"Found {len(chat_logs)} chat messages")
                 
                 for chat in chat_logs:
-            else:
-                logger.error(f"Invalid response format or empty result from chat API")
                     # Process Type 4 messages (battle reports)
                     if chat.get('type') == 4 and chat.get('param', {}).get('mailId'):
                         mail_id = chat['param']['mailId']
@@ -192,6 +190,8 @@ if __name__ == "__main__":
                         if mail_id and mail_type in [29, 21]:
                             logger.info(f"Processing direct battle report mail ID: {mail_id} (Type: {mail_type})")
                             mail_response = await checker.read_mail(api_client, mail_id)
+            else:
+                logger.error(f"Invalid response format or empty result from chat API")
 
         else:
             print("Could not get valid token")
