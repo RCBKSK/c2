@@ -143,7 +143,7 @@ class ChatChecker:
         try:
             logger.info("Checking chat logs...")
             payload = {
-                "chatChannel": "a654085b4576c55618678a563"
+                "chatChannel": "p67d1a11ca807992603b5fe40-6169a073852452726c48fe93"
             }
 
             response = api_client.post('chat/logs', payload)
