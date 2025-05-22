@@ -170,10 +170,15 @@ if __name__ == "__main__":
             checker = ChatChecker()
             logs = await checker.check_chat_logs(api_client)
 
-            # Test mail read
-            mail_id = "673e796f5bd3176d7bc4d9fc"
-            print(f"\nTesting mail read for ID: {mail_id}")
-            mail_response = await checker.read_mail(api_client, mail_id)
+            if logs and logs.get('result'):
+                chat_logs = logs.get('list', [])
+                for chat in chat_logs:
+                    content = chat.get('content', {})
+                    if isinstance(content, dict):
+                        mail_id = content.get('mail', {}).get('id')
+                        if mail_id:
+                            print(f"\nReading mail from chat, ID: {mail_id}")
+                            mail_response = await checker.read_mail(api_client, mail_id)
 
         else:
             print("Could not get valid token")
