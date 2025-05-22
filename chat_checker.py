@@ -118,8 +118,8 @@ class ChatChecker:
             }
             
             response = api_client.post('mail/read', payload)
-            print("\nMail Read Response:")
-            print(json.dumps(response, indent=2))
+            print("\nMail Read Response for ID:", mail_id)
+            print(json.dumps(response, indent=2, ensure_ascii=False))
             
             # Log troops lost information
             if response and isinstance(response, dict):
