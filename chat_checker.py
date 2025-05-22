@@ -176,10 +176,12 @@ if __name__ == "__main__":
                 chat_logs = logs.get('chatLogs', [])
                 logger.info(f"Found {len(chat_logs)} chat messages")
                 
+                processed_messages = set()
                 for chat in chat_logs:
                     # Process Type 4 messages (battle reports)
                     msg_id = chat.get('_id')
-                    if msg_id not in self.processed_messages and chat.get('type') == 4 and chat.get('param', {}).get('mailId'):
+                    if msg_id not in processed_messages and chat.get('type') == 4 and chat.get('param', {}).get('mailId'):
+                        processed_messages.add(msg_id)
                         mail_id = chat['param']['mailId']
                         logger.info(f"Processing battle report from chat, mail ID: {mail_id}")
                         mail_response = await checker.read_mail(api_client, mail_id)
