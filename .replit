@@ -1,0 +1,9 @@
+modules = ["python-3.12", "nix"]
+run = "python title_bot.py"
+
+[nix]
+channel = "stable-24_05"
+packages = ["cacert", "glibcLocales", "iana-etc", "libffi", "pkg-config"]
+
+[deployment]
+run = ["sh", "-c", "python title_bot.py"]
