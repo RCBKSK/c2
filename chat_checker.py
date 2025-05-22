@@ -174,10 +174,10 @@ if __name__ == "__main__":
             if logs and logs.get('result'):
                 chat_logs = logs.get('chatLogs', [])
                 logger.info(f"Found {len(chat_logs)} chat messages")
-            else:
-                logger.error(f"Invalid response format or empty result from chat API")
                 
                 for chat in chat_logs:
+            else:
+                logger.error(f"Invalid response format or empty result from chat API")
                     # Process Type 4 messages (battle reports)
                     if chat.get('type') == 4 and chat.get('param', {}).get('mailId'):
                         mail_id = chat['param']['mailId']
