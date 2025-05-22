@@ -170,9 +170,12 @@ if __name__ == "__main__":
             checker = ChatChecker()
             logs = await checker.check_chat_logs(api_client)
 
+            logger.info(f"Chat logs response: {json.dumps(logs, indent=2)}")
             if logs and logs.get('result'):
                 chat_logs = logs.get('list', [])
                 logger.info(f"Found {len(chat_logs)} chat messages")
+            else:
+                logger.error(f"Invalid response format or empty result from chat API")
                 
                 for chat in chat_logs:
                     # Process Type 4 messages (battle reports)
