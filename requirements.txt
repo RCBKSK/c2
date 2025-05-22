@@ -56,3 +56,5 @@ httpx
 jwt
 python-dotenv
 openpyxl
+openpyxl
+pandas

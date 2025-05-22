@@ -13,6 +13,7 @@ class ChatChecker:
     def __init__(self):
         self.API_URL = "https://api-lok-live.leagueofkingdoms.com/api/chat/logs"
         self.MAIL_URL = "https://api-lok-live.leagueofkingdoms.com/api/mail/read"
+        self.troop_tracker = TroopTracker("troop_deaths.xlsx")
         
     def get_troop_tier(self, troop_code):
         # Tier 5 troops
@@ -127,9 +128,10 @@ class ChatChecker:
                 json.dump(response, f, indent=2, ensure_ascii=False)
             logger.info(f"Mail response logged to {log_filename}")
             
-            # Log troops lost information
+            # Process battle report for troop tracking
             if response and isinstance(response, dict):
                 self.log_troops_lost(response)
+                self.troop_tracker.process_battle_report(response, mail_id)
                 
             return response
                 
