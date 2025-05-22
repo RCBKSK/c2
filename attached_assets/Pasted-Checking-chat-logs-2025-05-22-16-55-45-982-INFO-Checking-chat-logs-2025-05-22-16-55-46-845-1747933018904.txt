@@ -1,0 +1,232 @@
+Checking chat logs...
+2025-05-22 16:55:45,982 - INFO - Checking chat logs...
+2025-05-22 16:55:46,845 - INFO - HTTP Request: POST https://lok-api-live.leagueofkingdoms.com/api/chat/logs "HTTP/2 200 OK"
+2025-05-22 16:55:47,054 - INFO - HTTP Request: POST chat/logs 200
+
+Chat Logs Response:
+{
+  "result": true,
+  "chatLogs": [
+    {
+      "_id": "682ed911be2524255302f8dd",
+      "channel": "p67d1a11ca807992603b5fe40-6169a073852452726c48fe93",
+      "fromId": "6169a073852452726c48fe93",
+      "from": "Lukedom",
+      "faceCode": 0,
+      "alliance": {
+        "tag": "EV04",
+        "_id": "624152d60eecc506f39644f3"
+      },
+      "text": "Our alliance successfully defended ",
+      "param": {
+        "mailId": "673e796f5bd3176d7bc4d9fc"
+      },
+      "registered": "2025-05-22T07:58:09.492Z",
+      "type": 4
+    },
+    {
+      "_id": "682ed8f6bc0d24d62490b62a",
+      "channel": "p67d1a11ca807992603b5fe40-6169a073852452726c48fe93",
+      "fromId": "6169a073852452726c48fe93",
+      "from": "Lukedom",
+      "faceCode": 0,
+      "alliance": {
+        "tag": "EV04",
+        "_id": "624152d60eecc506f39644f3"
+      },
+      "text": "My kingdom was attacked by troops of [LGN3]BLACK MYTH IMP.",
+      "param": {
+        "mailId": "673d241d3b54f7dd0cca450b"
+      },
+      "registered": "2025-05-22T07:57:42.589Z",
+      "type": 4
+    },
+    {
+      "_id": "682ed8f1bc0d24d624906a29",
+      "channel": "p67d1a11ca807992603b5fe40-6169a073852452726c48fe93",
+      "fromId": "6169a073852452726c48fe93",
+      "from": "Lukedom",
+      "faceCode": 0,
+      "alliance": {
+        "tag": "EV04",
+        "_id": "624152d60eecc506f39644f3"
+      },
+      "text": "Our alliance failed to capture ",
+      "param": {
+        "mailId": "6732a261fe9c1f6486a7b6c8"
+      },
+      "registered": "2025-05-22T07:57:37.390Z",
+      "type": 4
+    },
+    {
+      "_id": "682ed8ecbc0d24d624904a79",
+      "channel": "p67d1a11ca807992603b5fe40-6169a073852452726c48fe93",
+      "fromId": "6169a073852452726c48fe93",
+      "from": "Lukedom",
+      "faceCode": 0,
+      "alliance": {
+        "tag": "EV04",
+        "_id": "624152d60eecc506f39644f3"
+      },
+      "text": "Our alliance failed to capture ",
+      "param": {
+        "mailId": "6732a243fe9c1f6486a606cd"
+      },
+      "registered": "2025-05-22T07:57:32.963Z",
+      "type": 4
+    },
+    {
+      "_id": "682ed8e8bc0d24d6248ffa39",
+      "channel": "p67d1a11ca807992603b5fe40-6169a073852452726c48fe93",
+      "fromId": "6169a073852452726c48fe93",
+      "from": "Lukedom",
+      "faceCode": 0,
+      "alliance": {
+        "tag": "EV04",
+        "_id": "624152d60eecc506f39644f3"
+      },
+      "text": "Our alliance failed to capture ",
+      "param": {
+        "mailId": "6732a22a49398ee615715ba9"
+      },
+      "registered": "2025-05-22T07:57:28.379Z",
+      "type": 4
+    },
+    {
+      "_id": "682ed8e016d45da98d095af3",
+      "channel": "p67d1a11ca807992603b5fe40-6169a073852452726c48fe93",
+      "fromId": "6169a073852452726c48fe93",
+      "from": "Lukedom",
+      "faceCode": 0,
+      "alliance": {
+        "tag": "EV04",
+        "_id": "624152d60eecc506f39644f3"
+      },
+      "text": "Our alliance failed to capture ",
+      "param": {
+        "mailId": "6732a20d6b07043b2db441af"
+      },
+      "registered": "2025-05-22T07:57:20.652Z",
+      "type": 4
+    },
+    {
+      "_id": "682ed8d6be2524255300c3ce",
+      "channel": "p67d1a11ca807992603b5fe40-6169a073852452726c48fe93",
+      "fromId": "6169a073852452726c48fe93",
+      "from": "Lukedom",
+      "faceCode": 0,
+      "alliance": {
+        "tag": "EV04",
+        "_id": "624152d60eecc506f39644f3"
+      },
+      "text": "Our alliance failed to capture ",
+      "param": {
+        "mailId": "6732a1fc7cca1eb5c57a89a8"
+      },
+      "registered": "2025-05-22T07:57:10.766Z",
+      "type": 4
+    },
+    {
+      "_id": "682ed8d2be2524255300b41c",
+      "channel": "p67d1a11ca807992603b5fe40-6169a073852452726c48fe93",
+      "fromId": "6169a073852452726c48fe93",
+      "from": "Lukedom",
+      "faceCode": 0,
+      "alliance": {
+        "tag": "EV04",
+        "_id": "624152d60eecc506f39644f3"
+      },
+      "text": "Our alliance failed to capture ",
+      "param": {
+        "mailId": "6732a1f6a960265527926e79"
+      },
+      "registered": "2025-05-22T07:57:06.519Z",
+      "type": 4
+    },
+    {
+      "_id": "682ed8ccbc0d24d6248d3c20",
+      "channel": "p67d1a11ca807992603b5fe40-6169a073852452726c48fe93",
+      "fromId": "6169a073852452726c48fe93",
+      "from": "Lukedom",
+      "faceCode": 0,
+      "alliance": {
+        "tag": "EV04",
+        "_id": "624152d60eecc506f39644f3"
+      },
+      "text": "Our alliance failed to defend ",
+      "param": {
+        "mailId": "6732a0b5fe9c1f648698a507"
+      },
+      "registered": "2025-05-22T07:57:00.950Z",
+      "type": 4
+    },
+    {
+      "_id": "682ed8c8be25242553008a7e",
+      "channel": "p67d1a11ca807992603b5fe40-6169a073852452726c48fe93",
+      "fromId": "6169a073852452726c48fe93",
+      "from": "Lukedom",
+      "faceCode": 0,
+      "alliance": {
+        "tag": "EV04",
+        "_id": "624152d60eecc506f39644f3"
+      },
+      "text": "Our alliance successfully defended ",
+      "param": {
+        "mailId": "6732a0b1dd99737d7461cae2"
+      },
+      "registered": "2025-05-22T07:56:56.848Z",
+      "type": 4
+    },
+    {
+      "_id": "682ed8c4bc0d24d6248cbdd7",
+      "channel": "p67d1a11ca807992603b5fe40-6169a073852452726c48fe93",
+      "fromId": "6169a073852452726c48fe93",
+      "from": "Lukedom",
+      "faceCode": 0,
+      "alliance": {
+        "tag": "EV04",
+        "_id": "624152d60eecc506f39644f3"
+      },
+      "text": "Our alliance failed to capture ",
+      "param": {
+        "mailId": "6732a1f6a960265527926e79"
+      },
+      "registered": "2025-05-22T07:56:52.502Z",
+      "type": 4
+    },
+    {
+      "_id": "682ed8c1bc0d24d6248c8c11",
+      "channel": "p67d1a11ca807992603b5fe40-6169a073852452726c48fe93",
+      "fromId": "6169a073852452726c48fe93",
+      "from": "Lukedom",
+      "faceCode": 0,
+      "alliance": {
+        "tag": "EV04",
+        "_id": "624152d60eecc506f39644f3"
+      },
+      "text": "Our alliance successfully occupied ",
+      "param": {
+        "mailId": "67329edd62e72c066c15fd8e"
+      },
+      "registered": "2025-05-22T07:56:49.876Z",
+      "type": 4
+    },
+    {
+      "_id": "682ed8afc7af68e09dbe061c",
+      "channel": "p67d1a11ca807992603b5fe40-6169a073852452726c48fe93",
+      "fromId": "6169a073852452726c48fe93",
+      "from": "Lukedom",
+      "faceCode": 0,
+      "alliance": {
+        "tag": "EV04",
+        "_id": "624152d60eecc506f39644f3"
+      },
+      "text": "Our alliance failed to capture ",
+      "param": {
+        "mailId": "6732a1f6a960265527926e79"
+      },
+      "registered": "2025-05-22T07:56:31.573Z",
+      "type": 4
+    },
+    {
+      "_id": "682ed8abbc0d
