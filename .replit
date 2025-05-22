@@ -7,3 +7,15 @@ packages = ["cacert", "glibcLocales", "iana-etc", "libffi", "pkg-config"]
 
 [deployment]
 run = ["sh", "-c", "python title_bot.py"]
+
+[workflows]
+runButton = "Run"
+
+[[workflows.workflow]]
+name = "Run"
+author = 42998376
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python chat_checker.py"
