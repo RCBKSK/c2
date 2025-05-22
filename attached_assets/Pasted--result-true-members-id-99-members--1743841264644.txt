@@ -1,0 +1,660 @@
+{
+    "result": true,
+    "members": [
+        {
+            "_id": 99,
+            "members": [
+                {
+                    "kingdomId": "65571f0ab8f95f191c953d0a",
+                    "name": "Espanuy*2ⓒ",
+                    "power": "49220753",
+                    "rank": 99,
+                    "lastLogined": "2025-04-05T07:52:37.187Z",
+                    "logined": true,
+                    "faceCode": 7040590
+                }
+            ]
+        },
+        {
+            "_id": 4,
+            "members": [
+                {
+                    "kingdomId": "65d48064c73af50455965c21",
+                    "name": "RCBK 3",
+                    "power": "7330882",
+                    "rank": 4,
+                    "lastLogined": "2025-04-05T08:06:19.346Z",
+                    "logined": true,
+                    "faceCode": 5
+                },
+                {
+                    "kingdomId": "67e1a199559ad794fa595ab3",
+                    "name": "Rayna 2",
+                    "power": "240185",
+                    "rank": 4,
+                    "lastLogined": "2025-04-05T07:26:47.378Z",
+                    "logined": true,
+                    "faceCode": 0
+                },
+                {
+                    "kingdomId": "655317b79c302e1378e1c9e9",
+                    "name": "Sorareland",
+                    "power": "93431023",
+                    "rank": 4,
+                    "lastLogined": "2025-04-05T06:47:47.898Z",
+                    "logined": false,
+                    "faceCode": 6
+                },
+                {
+                    "kingdomId": "63b811e989c7e854f78066a2",
+                    "name": "Friesen Pake",
+                    "power": "96454046",
+                    "rank": 4,
+                    "lastLogined": "2025-04-05T06:46:13.868Z",
+                    "logined": false,
+                    "faceCode": 0
+                },
+                {
+                    "kingdomId": "6466c60644c55860f81a24b6",
+                    "name": "ⓈyrioForël",
+                    "power": "148855530",
+                    "rank": 4,
+                    "lastLogined": "2025-04-05T02:26:03.742Z",
+                    "logined": false,
+                    "faceCode": 7027009
+                },
+                {
+                    "kingdomId": "6620dbeca901f7ac1e6fdf66",
+                    "name": "halcón",
+                    "power": "72532187",
+                    "rank": 4,
+                    "lastLogined": "2025-04-04T23:04:50.996Z",
+                    "logined": false,
+                    "faceCode": 0
+                },
+                {
+                    "kingdomId": "62169f87aeda8a56b71d68b6",
+                    "name": "ⓈZurraspas",
+                    "power": "77937877",
+                    "rank": 4,
+                    "lastLogined": "2025-04-04T12:58:49.858Z",
+                    "logined": false,
+                    "faceCode": 0
+                },
+                {
+                    "kingdomId": "630c9ce346b73a636e77ad26",
+                    "name": "MTAS III",
+                    "power": "12963905",
+                    "rank": 4,
+                    "lastLogined": "2025-03-24T22:52:59.096Z",
+                    "logined": false,
+                    "faceCode": 0
+                }
+            ]
+        },
+        {
+            "_id": 3,
+            "members": [
+                {
+                    "kingdomId": "67455b0d22fb484a05da87f4",
+                    "name": "RCBK 2",
+                    "power": "7946614",
+                    "rank": 3,
+                    "lastLogined": "2025-04-05T08:15:26.623Z",
+                    "logined": true,
+                    "faceCode": 4
+                },
+                {
+                    "kingdomId": "61e1cf6baac6681078ab3ac8",
+                    "name": "Хаос_2021",
+                    "power": "132915661",
+                    "rank": 3,
+                    "lastLogined": "2025-04-05T07:22:20.478Z",
+                    "logined": true,
+                    "faceCode": 0
+                },
+                {
+                    "kingdomId": "636ebbebbfb2e5288341badc",
+                    "name": "PIMEN(palazon)",
+                    "power": "138209023",
+                    "rank": 3,
+                    "lastLogined": "2025-04-05T07:17:28.172Z",
+                    "logined": false,
+                    "faceCode": 0
+                },
+                {
+                    "kingdomId": "6561d8ef0169370fcfb24b2e",
+                    "name": "LEVA",
+                    "power": "74629089",
+                    "rank": 3,
+                    "lastLogined": "2025-04-05T07:14:26.969Z",
+                    "logined": false,
+                    "faceCode": 0
+                },
+                {
+                    "kingdomId": "65328cd9cca5426af9888de7",
+                    "name": "ⓒ D_Pamungkas Ɽ",
+                    "power": "70052360",
+                    "rank": 3,
+                    "lastLogined": "2025-04-05T03:56:03.097Z",
+                    "logined": false,
+                    "faceCode": 0
+                },
+                {
+                    "kingdomId": "66649770ab55b9aff8a479ac",
+                    "name": "KALEGİBİFARM Ɽ",
+                    "power": "44215674",
+                    "rank": 3,
+                    "lastLogined": "2025-04-05T00:52:29.023Z",
+                    "logined": false,
+                    "faceCode": 7037364
+                },
+                {
+                    "kingdomId": "61a8258ce32ade0cabef8ea8",
+                    "name": "B3zi",
+                    "power": "116969354",
+                    "rank": 3,
+                    "lastLogined": "2025-04-05T00:37:45.892Z",
+                    "logined": false,
+                    "faceCode": 2
+                },
+                {
+                    "kingdomId": "6574699d594b6732293afbd4",
+                    "name": "@Pudim",
+                    "power": "54550297",
+                    "rank": 3,
+                    "lastLogined": "2025-04-05T00:10:08.859Z",
+                    "logined": false,
+                    "faceCode": 0
+                },
+                {
+                    "kingdomId": "65482add83916d692cccbef8",
+                    "name": "LUMEN  ⓒ",
+                    "power": "123802872",
+                    "rank": 3,
+                    "lastLogined": "2025-04-04T21:25:21.017Z",
+                    "logined": false,
+                    "faceCode": 7030665
+                },
+                {
+                    "kingdomId": "654ecd52dd3ba76a2e68d514",
+                    "name": "dr. Psycho",
+                    "power": "127416016",
+                    "rank": 3,
+                    "lastLogined": "2025-04-04T20:13:35.496Z",
+                    "logined": false,
+                    "faceCode": 0
+                },
+                {
+                    "kingdomId": "6519716beeff800dd38897ee",
+                    "name": "Ⓢ Noctis I",
+                    "power": "29949811",
+                    "rank": 3,
+                    "lastLogined": "2025-04-04T12:41:50.308Z",
+                    "logined": false,
+                    "faceCode": 0
+                },
+                {
+                    "kingdomId": "637bbed784cea128d01c24b5",
+                    "name": "Ⓢ ABONATOR",
+                    "power": "79039604",
+                    "rank": 3,
+                    "lastLogined": "2025-04-02T17:55:54.682Z",
+                    "logined": false,
+                    "faceCode": 0
+                },
+                {
+                    "kingdomId": "62d3d2185ee0a73547b7a440",
+                    "name": "Snatch",
+                    "power": "125877029",
+                    "rank": 3,
+                    "lastLogined": "2025-03-22T23:00:34.848Z",
+                    "logined": false,
+                    "faceCode": 0
+                },
+                {
+                    "kingdomId": "654f8dcdaa7b4e7880dbc3ca",
+                    "name": "Ⓢ UrbossMK ◊",
+                    "power": "78236792",
+                    "rank": 3,
+                    "lastLogined": "2025-03-20T16:10:09.140Z",
+                    "logined": false,
+                    "faceCode": 0
+                }
+            ]
+        },
+        {
+            "_id": 2,
+            "members": [
+                {
+                    "kingdomId": "64412be51c4991492dcf22f2",
+                    "name": "Xemi_baby",
+                    "power": "62323471",
+                    "rank": 2,
+                    "lastLogined": "2025-04-05T08:01:29.228Z",
+                    "logined": true,
+                    "faceCode": 7023043
+                },
+                {
+                    "kingdomId": "654084b5038f2264ef8957ac",
+                    "name": "CrackerJack",
+                    "power": "57143896",
+                    "rank": 2,
+                    "lastLogined": "2025-04-05T00:43:15.838Z",
+                    "logined": true,
+                    "faceCode": 0
+                },
+                {
+                    "kingdomId": "646457901ed37530570197c6",
+                    "name": "Поскот-UA",
+                    "power": "57777385",
+                    "rank": 2,
+                    "lastLogined": "2025-04-05T06:47:08.722Z",
+                    "logined": false,
+                    "faceCode": 5
+                },
+                {
+                    "kingdomId": "655c1086e7a9de15f30541aa",
+                    "name": "sulapanaye",
+                    "power": "62257368",
+                    "rank": 2,
+                    "lastLogined": "2025-04-05T04:43:55.919Z",
+                    "logined": false,
+                    "faceCode": 0
+                },
+                {
+                    "kingdomId": "6214c6e045334248c52b2e41",
+                    "name": "Beniwal",
+                    "power": "92428654",
+                    "rank": 2,
+                    "lastLogined": "2025-04-05T04:36:43.420Z",
+                    "logined": false,
+                    "faceCode": 0
+                },
+                {
+                    "kingdomId": "63fbe3887d4bcd3038b0a8d2",
+                    "name": "ⓢWyld Red Drago",
+                    "power": "66125814",
+                    "rank": 2,
+                    "lastLogined": "2025-04-05T02:02:36.178Z",
+                    "logined": false,
+                    "faceCode": 1018140
+                },
+                {
+                    "kingdomId": "671cb633a353ec935233f52f",
+                    "name": "Jb Land",
+                    "power": "26848129",
+                    "rank": 2,
+                    "lastLogined": "2025-04-05T01:43:00.767Z",
+                    "logined": false,
+                    "faceCode": 7
+                },
+                {
+                    "kingdomId": "61414649ad223b27e72bcbd7",
+                    "name": "Kaio ⻓➁",
+                    "power": "41758276",
+                    "rank": 2,
+                    "lastLogined": "2025-04-05T01:23:41.200Z",
+                    "logined": false,
+                    "faceCode": 0
+                },
+                {
+                    "kingdomId": "667497758b9ae0459d8fbcdc",
+                    "name": "Pudim@Farm",
+                    "power": "43512083",
+                    "rank": 2,
+                    "lastLogined": "2025-04-05T00:12:26.747Z",
+                    "logined": false,
+                    "faceCode": 0
+                },
+                {
+                    "kingdomId": "654a41021b5e06239abf7c39",
+                    "name": "The king amin",
+                    "power": "55117258",
+                    "rank": 2,
+                    "lastLogined": "2025-04-04T23:35:49.511Z",
+                    "logined": false,
+                    "faceCode": 0
+                },
+                {
+                    "kingdomId": "662dedefd9ca10eac7e8506e",
+                    "name": "Ojo de halcón",
+                    "power": "51508450",
+                    "rank": 2,
+                    "lastLogined": "2025-04-04T23:04:52.522Z",
+                    "logined": false,
+                    "faceCode": 0
+                },
+                {
+                    "kingdomId": "663c8823e8849e89cbf296e6",
+                    "name": "halcón ámbar",
+                    "power": "56822106",
+                    "rank": 2,
+                    "lastLogined": "2025-04-04T23:04:44.185Z",
+                    "logined": false,
+                    "faceCode": 0
+                },
+                {
+                    "kingdomId": "62a880a2f4bc303782a5adb9",
+                    "name": "covo 2",
+                    "power": "100826829",
+                    "rank": 2,
+                    "lastLogined": "2025-04-04T22:25:29.699Z",
+                    "logined": false,
+                    "faceCode": 13
+                },
+                {
+                    "kingdomId": "6564c2d3dfe3b870d4df7e36",
+                    "name": "Ⓢ Noctis II",
+                    "power": "7418179",
+                    "rank": 2,
+                    "lastLogined": "2025-04-04T12:05:08.788Z",
+                    "logined": false,
+                    "faceCode": 7035504
+                },
+                {
+                    "kingdomId": "67e18f212ed8da08f25eb153",
+                    "name": "Rayna The Queen",
+                    "power": "281165",
+                    "rank": 2,
+                    "lastLogined": "2025-04-04T09:22:49.191Z",
+                    "logined": false,
+                    "faceCode": 6
+                },
+                {
+                    "kingdomId": "630e1513882a9d3c002ca30e",
+                    "name": "Marbs_alt",
+                    "power": "77298103",
+                    "rank": 2,
+                    "lastLogined": "2025-04-01T19:11:22.632Z",
+                    "logined": false,
+                    "faceCode": 0
+                },
+                {
+                    "kingdomId": "6540ad00c97f3405bf741879",
+                    "name": ".Ayah.",
+                    "power": "48082634",
+                    "rank": 2,
+                    "lastLogined": "2025-04-01T16:45:14.123Z",
+                    "logined": false,
+                    "faceCode": 0
+                },
+                {
+                    "kingdomId": "62d17f41ce6653190d88a1ec",
+                    "name": "Kill bill",
+                    "power": "126263567",
+                    "rank": 2,
+                    "lastLogined": "2025-03-22T23:48:28.327Z",
+                    "logined": false,
+                    "faceCode": 0
+                },
+                {
+                    "kingdomId": "65c9b87055a55b6dfe6723bf",
+                    "name": "chocolot",
+                    "power": "54858262",
+                    "rank": 2,
+                    "lastLogined": "2025-03-19T01:21:56.986Z",
+                    "logined": false,
+                    "faceCode": 0
+                },
+                {
+                    "kingdomId": "62fa9398d5d9eb07bcdc756b",
+                    "name": "JERRY ALT",
+                    "power": "58115265",
+                    "rank": 2,
+                    "lastLogined": "2025-03-17T00:07:21.558Z",
+                    "logined": false,
+                    "faceCode": 1
+                },
+                {
+                    "kingdomId": "6560c22e34dcfc1177636441",
+                    "name": ":Kelompencapir",
+                    "power": "90346133",
+                    "rank": 2,
+                    "lastLogined": "2025-03-16T21:45:07.762Z",
+                    "logined": false,
+                    "faceCode": 0
+                }
+            ]
+        },
+        {
+            "_id": 1,
+            "members": [
+                {
+                    "kingdomId": "63c7d23049e74d1a32e7d4f6",
+                    "name": "Jayvee Sensei ⓒ",
+                    "power": "67743652",
+                    "rank": 1,
+                    "lastLogined": "2025-04-05T07:35:44.920Z",
+                    "logined": false,
+                    "faceCode": 7023652
+                },
+                {
+                    "kingdomId": "652d79a3908cfc04ea312123",
+                    "name": "HamzA Ⓒ",
+                    "power": "278951254",
+                    "rank": 1,
+                    "lastLogined": "2025-04-05T07:22:05.993Z",
+                    "logined": false,
+                    "faceCode": 7031185
+                },
+                {
+                    "kingdomId": "6507355a9ae7454ccc63b8bb",
+                    "name": "Friesen Pier",
+                    "power": "70700350",
+                    "rank": 1,
+                    "lastLogined": "2025-04-05T07:00:10.207Z",
+                    "logined": false,
+                    "faceCode": 0
+                },
+                {
+                    "kingdomId": "660e99b08c73ff6d8d2f825f",
+                    "name": "Friesen bobbe",
+                    "power": "29338185",
+                    "rank": 1,
+                    "lastLogined": "2025-04-05T06:53:22.413Z",
+                    "logined": false,
+                    "faceCode": 0
+                },
+                {
+                    "kingdomId": "6564b1a57f6c39730c23cd1c",
+                    "name": "friesen jong",
+                    "power": "61011156",
+                    "rank": 1,
+                    "lastLogined": "2025-04-05T06:52:45.105Z",
+                    "logined": false,
+                    "faceCode": 0
+                },
+                {
+                    "kingdomId": "654bd4c006b156080fc61f2e",
+                    "name": "friesen Heit",
+                    "power": "63310928",
+                    "rank": 1,
+                    "lastLogined": "2025-04-05T06:52:10.463Z",
+                    "logined": false,
+                    "faceCode": 0
+                },
+                {
+                    "kingdomId": "6716055e58f73c2ae87c9d82",
+                    "name": "RCBK",
+                    "power": "69853292",
+                    "rank": 1,
+                    "lastLogined": "2025-04-05T06:27:34.689Z",
+                    "logined": false,
+                    "faceCode": 4
+                },
+                {
+                    "kingdomId": "624369225f49366eaf3d74ec",
+                    "name": "❶Wyked",
+                    "power": "181591685",
+                    "rank": 1,
+                    "lastLogined": "2025-04-05T02:13:58.536Z",
+                    "logined": false,
+                    "faceCode": 1010821
+                },
+                {
+                    "kingdomId": "62eab6c6f28e7f3fc37c3814",
+                    "name": "normanpkg",
+                    "power": "56128100",
+                    "rank": 1,
+                    "lastLogined": "2025-04-05T01:39:27.491Z",
+                    "logined": false,
+                    "faceCode": 8
+                },
+                {
+                    "kingdomId": "61dd97a244c06852d963a865",
+                    "name": "tank man",
+                    "power": "65096161",
+                    "rank": 1,
+                    "lastLogined": "2025-04-05T01:36:54.544Z",
+                    "logined": false,
+                    "faceCode": 0
+                },
+                {
+                    "kingdomId": "67659e4c483f7ddec944e30a",
+                    "name": "Espanuy*Ɽ",
+                    "power": "9183236",
+                    "rank": 1,
+                    "lastLogined": "2025-04-05T00:24:40.006Z",
+                    "logined": false,
+                    "faceCode": 7040590
+                },
+                {
+                    "kingdomId": "65db0119f68a31487ada2fbb",
+                    "name": "Espanuy*4-Ɽ",
+                    "power": "22030349",
+                    "rank": 1,
+                    "lastLogined": "2025-04-05T00:21:29.333Z",
+                    "logined": false,
+                    "faceCode": 7040590
+                },
+                {
+                    "kingdomId": "654c24820744ce7070efc0c4",
+                    "name": "30D",
+                    "power": "46930885",
+                    "rank": 1,
+                    "lastLogined": "2025-04-05T00:17:57.950Z",
+                    "logined": false,
+                    "faceCode": 1
+                },
+                {
+                    "kingdomId": "63402fd0f730452cbb08f14f",
+                    "name": "ⒸXemiox Jn.",
+                    "power": "97381957",
+                    "rank": 1,
+                    "lastLogined": "2025-04-05T00:00:42.735Z",
+                    "logined": false,
+                    "faceCode": 0
+                },
+                {
+                    "kingdomId": "622e2a4f9e27366cc661980f",
+                    "name": "PhanŦom",
+                    "power": "61821052",
+                    "rank": 1,
+                    "lastLogined": "2025-04-04T18:09:13.544Z",
+                    "logined": false,
+                    "faceCode": 7
+                },
+                {
+                    "kingdomId": "654aed6d8e4e725a40471574",
+                    "name": "komd",
+                    "power": "47760326",
+                    "rank": 1,
+                    "lastLogined": "2025-04-03T08:03:30.904Z",
+                    "logined": false,
+                    "faceCode": 0
+                },
+                {
+                    "kingdomId": "619d091d95b2d40c80e5f948",
+                    "name": "lqd4",
+                    "power": "86380114",
+                    "rank": 1,
+                    "lastLogined": "2025-04-02T14:19:48.494Z",
+                    "logined": false,
+                    "faceCode": 3
+                },
+                {
+                    "kingdomId": "61e552e25d75391198fb0cf8",
+                    "name": "savaşcı",
+                    "power": "101038417",
+                    "rank": 1,
+                    "lastLogined": "2025-03-30T11:27:24.159Z",
+                    "logined": false,
+                    "faceCode": 0
+                },
+                {
+                    "kingdomId": "628c2a5624fcac6ce0801c8f",
+                    "name": "Kurcaci",
+                    "power": "46882493",
+                    "rank": 1,
+                    "lastLogined": "2025-03-30T11:23:14.553Z",
+                    "logined": false,
+                    "faceCode": 2
+                },
+                {
+                    "kingdomId": "654b144f7e6fde2ff477a7c9",
+                    "name": "Killerb33s",
+                    "power": "42697029",
+                    "rank": 1,
+                    "lastLogined": "2025-03-29T12:46:53.358Z",
+                    "logined": false,
+                    "faceCode": 0
+                },
+                {
+                    "kingdomId": "6470f9a7578f1a32a3c9f865",
+                    "name": "Gucimuci",
+                    "power": "49823629",
+                    "rank": 1,
+                    "lastLogined": "2025-03-28T19:21:20.615Z",
+                    "logined": false,
+                    "faceCode": 13
+                },
+                {
+                    "kingdomId": "6204378409eb8b48c15bc663",
+                    "name": "Belusso~1.0",
+                    "power": "71846980",
+                    "rank": 1,
+                    "lastLogined": "2025-03-21T14:32:56.609Z",
+                    "logined": false,
+                    "faceCode": 0
+                },
+                {
+                    "kingdomId": "65250ffb844cf23f9421e7b2",
+                    "name": "lqd.30",
+                    "power": "37675358",
+                    "rank": 1,
+                    "lastLogined": "2025-03-20T06:02:48.142Z",
+                    "logined": false,
+                    "faceCode": 7
+                },
+                {
+                    "kingdomId": "6271e4a15e39581827751df3",
+                    "name": "DiNaMiTo",
+                    "power": "63637209",
+                    "rank": 1,
+                    "lastLogined": "2025-03-18T18:48:47.933Z",
+                    "logined": false,
+                    "faceCode": 12
+                },
+                {
+                    "kingdomId": "654b9115a56a625167de9004",
+                    "name": "Longvan",
+                    "power": "49673216",
+                    "rank": 1,
+                    "lastLogined": "2025-03-16T06:58:40.199Z",
+                    "logined": false,
+                    "faceCode": 6
+                },
+                {
+                    "kingdomId": "631f2319ec8d3e4225a5902c",
+                    "name": "撒但Marbas地獄",
+                    "power": "45349985",
+                    "rank": 1,
+                    "lastLogined": "2025-03-11T03:55:27.362Z",
+                    "logined": false,
+                    "faceCode": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+services:
+- type: web
+  name: C69 Test
+  runtime: python
+  buildCommand: pip install -r requirements.txt
+  startCommand: python title_bot.py
+  envVars:
+    - key: DISCORD_BOT_TOKEN
+      sync: false
+    - key: PYTHONUNBUFFERED
+      value: "1"
+    - key: PORT
+      value: "10000"
+  plan: free
+  healthCheckPath: /
+  healthCheckTimeout: 5

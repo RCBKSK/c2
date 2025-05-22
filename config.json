@@ -1,0 +1,156 @@
+{
+  "main": {
+    "jobs": [
+      {
+        "name": "hospital_recover",
+        "enabled": false,
+        "interval": {
+          "start": 90,
+          "end": 180
+        }
+      },
+      {
+        "name": "wall_repair",
+        "enabled": false,
+        "interval": {
+          "start": 30,
+          "end": 90
+        }
+      },
+      {
+        "name": "alliance_farmer",
+        "enabled": false,
+        "kwargs": {
+          "gift_claim": true,
+          "help_all": true,
+          "research_donate": true,
+          "shop_auto_buy_item_code_list": [
+            10101008
+          ]
+        },
+        "interval": {
+          "start": 120,
+          "end": 200
+        }
+      },
+      {
+        "name": "mail_claim",
+        "enabled": false,
+        "interval": {
+          "start": 120,
+          "end": 200
+        }
+      },
+      {
+        "name": "caravan_farmer",
+        "enabled": false,
+        "interval": {
+          "start": 120,
+          "end": 200
+        }
+      },
+      {
+        "name": "use_resource_in_item_list",
+        "enabled": false,
+        "interval": {
+          "start": 120,
+          "end": 200
+        }
+      },
+      {
+        "name": "vip_chest_claim",
+        "enabled": false,
+        "interval": {
+          "start": 120,
+          "end": 200
+        }
+      },
+      {
+        "name": "harvester",
+        "enabled": false,
+        "interval": {
+          "start": 10,
+          "end": 20
+        }
+      },
+      {
+        "name": "socf_thread",
+        "enabled": true,
+        "kwargs": {
+          "targets": [
+            {
+              "code": 20100105,
+              "level": []
+            },
+            {
+              "code": 20100106,
+              "level": []
+            }
+          ],
+          "radius": 8,
+          "share_to": {
+            "chat_channels": [
+              0,
+              0
+            ]
+          }
+        },
+        "interval": {
+          "start": 1,
+          "end": 1
+        }
+      }
+    ],
+    "threads": [
+      {
+        "name": "free_chest_farmer_thread",
+        "enabled": false
+      },
+      {
+        "name": "quest_monitor_thread",
+        "enabled": false
+      },
+      {
+        "name": "building_farmer_thread",
+        "enabled": false,
+        "kwargs": {
+          "speedup": true
+        }
+      },
+      {
+        "name": "academy_farmer_thread",
+        "enabled": false,
+        "kwargs": {
+          "to_max_level": false,
+          "speedup": true
+        }
+      },
+      {
+        "name": "train_troop_thread",
+        "enabled": false,
+        "kwargs": {
+          "troop_code": 50100101,
+          "speedup": true,
+          "interval": 3600
+        }
+      }
+    ]
+  },
+  "socketio": {
+    "debug": false
+  },
+  "discord": {
+    "enabled": false,
+    "webhook_url": "https://discord.com/api/webhooks/1347950449629728870/QaIzHHP35zYX-d1RBrNOWozsy-OrkzGkbFB5Xq64-q42aQxEmN1GTS0FUL1LZkGwUWn7",
+    "crystal_mine_level1_webhook_url": "https://discord.com/api/webhooks/1348124055672455260/lP0Nq0PelaI4swvcMJ1yiZ17dXvTXjEePB-y1OOJrJjY-ViOkId5ojnZtm051rVSrbhw",
+    "level2plus_webhook_url": "https://discord.com/api/webhooks/1348280223157714977/Z-NID1RnGb9LpVn8JBRV8p7JgrPzJfgepAUpG07vJQKT-0lGtNdOf-nCffaOzXkHSuOK",
+    "level3plus_webhook_url": "https://discord.com/api/webhooks/1349663934587867167/_J3ybvKfCawKvkTPThQ1BDHE2I-jbw93M1k1SxU7aubqfvK5xMgaqLiLeorK11XEGlCo",
+    "custom_webhook_url": "https://discord.com/api/webhooks/1349044290394783835/V595BLyOzZIfUZzp7PtN7o6-dGlgBdJxtj7gvxPV1tqFmJaBH6lr5qEoynCyiTrF31BT"
+  },
+  "captcha_solver_config": {
+    "ttshitu": {
+      "username": "",
+      "password": ""
+    }
+  }
+}
