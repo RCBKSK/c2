@@ -1,5 +1,7 @@
 
 import logging
+import json
+import os
 import gspread
 import pandas as pd
 from datetime import datetime
@@ -10,14 +12,15 @@ class TroopTracker:
     def __init__(self, spreadsheet_url):
         self.spreadsheet_url = spreadsheet_url
         self.processed_reports = set()
-        # Connect to Google Sheet
+        # Connect to Google Sheet using service account
         try:
-            self.gc = gspread.service_account()
+            creds_json = json.loads(os.getenv('GOOGLE_SHEETS_CREDS'))
+            self.gc = gspread.service_account_from_dict(creds_json)
             self.sheet = self.gc.open_by_url(spreadsheet_url)
             self.worksheet = self.sheet.sheet1
+            logger.info("Successfully connected to Google Sheets")
         except Exception as e:
             logger.error(f"Failed to connect to Google Sheet: {e}")
-            # Fallback to Excel
             self.worksheet = None
 
     def update_player_stats(self, player_name, alliance_tag, t5_dead, t6_dead):
@@ -28,7 +31,6 @@ class TroopTracker:
                     cell = self.worksheet.find(player_name)
                     row = cell.row
                 except:
-                    # Add new row
                     row = len(self.worksheet.get_all_values()) + 1
                 
                 now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -40,18 +42,17 @@ class TroopTracker:
                     ])
                     row += 1
 
-                if row > 1:
-                    current = self.worksheet.row_values(row) if row <= self.worksheet.row_count else ["", "", "0", "0", "0", "0", ""]
-                    # Update row
-                    self.worksheet.update(f'A{row}:G{row}', [[
-                        player_name,
-                        alliance_tag,
-                        int(current[2] or 0) + t5_dead,
-                        int(current[3] or 0) + t6_dead,
-                        int(current[2] or 0) + t5_dead + int(current[3] or 0) + t6_dead,
-                        int(current[5] or 0) + 1,
-                        now
-                    ]])
+                # Update or add player data
+                self.worksheet.update(f'A{row}:G{row}', [[
+                    player_name,
+                    alliance_tag,
+                    t5_dead,
+                    t6_dead,
+                    t5_dead + t6_dead,
+                    1,
+                    now
+                ]])
+                logger.info(f"Updated stats for {player_name}")
             else:
                 # Fallback to Excel file
                 df = pd.read_excel("troop_deaths.xlsx")
