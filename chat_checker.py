@@ -163,7 +163,7 @@ if __name__ == "__main__":
             logs = await checker.check_chat_logs(api_client)
             
             # Test mail read
-            mail_id = "6828d1fe1ad6d3278f866917"
+            mail_id = "673e796f5bd3176d7bc4d9fc"
             print(f"\nTesting mail read for ID: {mail_id}")
             mail_response = await checker.read_mail(api_client, mail_id)
             
