@@ -14,6 +14,7 @@ class ChatChecker:
         self.API_URL = "https://api-lok-live.leagueofkingdoms.com/api/chat/logs"
         self.MAIL_URL = "https://api-lok-live.leagueofkingdoms.com/api/mail/read"
         self.troop_tracker = TroopTracker("troop_deaths.xlsx")
+        self.processed_messages = set()
 
     def get_troop_tier(self, troop_code):
         # Tier 5 troops
@@ -177,10 +178,12 @@ if __name__ == "__main__":
                 
                 for chat in chat_logs:
                     # Process Type 4 messages (battle reports)
-                    if chat.get('type') == 4 and chat.get('param', {}).get('mailId'):
+                    msg_id = chat.get('_id')
+                    if msg_id not in self.processed_messages and chat.get('type') == 4 and chat.get('param', {}).get('mailId'):
                         mail_id = chat['param']['mailId']
                         logger.info(f"Processing battle report from chat, mail ID: {mail_id}")
                         mail_response = await checker.read_mail(api_client, mail_id)
+                        self.processed_messages.add(msg_id)
                     # Also process directly shared battle reports
                     elif isinstance(chat.get('content', {}), dict) and chat.get('content', {}).get('mail'):
                         mail_data = chat.get('content', {}).get('mail', {})
