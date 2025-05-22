@@ -172,12 +172,18 @@ if __name__ == "__main__":
 
             if logs and logs.get('result'):
                 chat_logs = logs.get('list', [])
+                logger.info(f"Found {len(chat_logs)} chat messages")
+                
                 for chat in chat_logs:
                     content = chat.get('content', {})
-                    if isinstance(content, dict):
-                        mail_id = content.get('mail', {}).get('id')
-                        if mail_id:
-                            print(f"\nReading mail from chat, ID: {mail_id}")
+                    if isinstance(content, dict) and content.get('mail'):
+                        mail_data = content.get('mail', {})
+                        mail_id = mail_data.get('id')
+                        mail_type = mail_data.get('type')
+                        
+                        # Only process battle reports (type 29 for shrine battles or type 21 for kingdom attacks)
+                        if mail_id and mail_type in [29, 21]:
+                            logger.info(f"Processing battle report mail ID: {mail_id} (Type: {mail_type})")
                             mail_response = await checker.read_mail(api_client, mail_id)
 
         else:
