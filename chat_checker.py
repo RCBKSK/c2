@@ -121,6 +121,12 @@ class ChatChecker:
             print("\nMail Read Response for ID:", mail_id)
             print(json.dumps(response, indent=2, ensure_ascii=False))
             
+            # Log mail response to file
+            log_filename = f"mail_response_{mail_id}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+            with open(log_filename, 'w', encoding='utf-8') as f:
+                json.dump(response, f, indent=2, ensure_ascii=False)
+            logger.info(f"Mail response logged to {log_filename}")
+            
             # Log troops lost information
             if response and isinstance(response, dict):
                 self.log_troops_lost(response)
