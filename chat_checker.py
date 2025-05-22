@@ -172,7 +172,7 @@ if __name__ == "__main__":
 
             logger.info(f"Chat logs response: {json.dumps(logs, indent=2)}")
             if logs and logs.get('result'):
-                chat_logs = logs.get('list', [])
+                chat_logs = logs.get('chatLogs', [])
                 logger.info(f"Found {len(chat_logs)} chat messages")
             else:
                 logger.error(f"Invalid response format or empty result from chat API")
