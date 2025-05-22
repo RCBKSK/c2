@@ -13,7 +13,7 @@ class ChatChecker:
     def __init__(self):
         self.API_URL = "https://api-lok-live.leagueofkingdoms.com/api/chat/logs"
         self.MAIL_URL = "https://api-lok-live.leagueofkingdoms.com/api/mail/read"
-        self.troop_tracker = TroopTracker("troop_deaths.xlsx")
+        self.troop_tracker = TroopTracker("YOUR_GOOGLE_SHEET_URL")
         self.processed_messages = set()
 
     def get_troop_tier(self, troop_code):
